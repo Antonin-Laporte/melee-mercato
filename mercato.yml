@@ -1,0 +1,53 @@
+name: Melee Mercato - carrousels du jour
+
+on:
+  schedule:
+    - cron: '0 6 * * *'      # tous les jours ~08h00 Paris (06h00 UTC)
+  workflow_dispatch:           # bouton manuel dans l'onglet "Actions"
+
+# autorise le robot a re-commit l'historique anti-repetition
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Installer les dependances
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Generer carrousels + videos
+        run: python run.py
+
+      - name: Sauvegarder l'historique (anti-repetition)
+        run: |
+          if [ -f posted.json ]; then
+            git config user.name  "melee-mercato-bot"
+            git config user.email "bot@melee-mercato.local"
+            git add posted.json
+            git commit -m "maj historique transferts postes" || echo "rien a committer"
+            git push || echo "push impossible (pas de changement)"
+          fi
+
+      - name: Empaqueter les fichiers du jour
+        uses: actions/upload-artifact@v4
+        with:
+          name: mercato-du-jour
+          path: carrousels/
+          if-no-files-found: ignore
+          retention-days: 14

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+carrousels/
+diagnostic_resultat.txt
+_vtmp/

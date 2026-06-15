@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face{font-family:'Bodoni Moda';src:local('Bodoni Moda');}
+  :root{
+    --ink:#0a0a0c; --bone:#f4f1ea; --bone-dim:#b8b2a6;
+    --accent:#c0392f; --line:rgba(244,241,234,.18);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ink);}
+  .slide{
+    position:relative;width:1080px;height:1920px;background:var(--ink);
+    overflow:hidden;isolation:isolate;
+    font-family:'Archivo','Helvetica Neue',Arial,sans-serif;
+  }
+  .serif{font-family:'Bodoni Moda','Didot','Times New Roman',serif;}
+  .slide::after{
+    content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
+    background:
+      radial-gradient(120% 80% at 50% 0%, transparent 40%, rgba(0,0,0,.55) 100%),
+      radial-gradient(100% 100% at 50% 100%, rgba(0,0,0,.5), transparent 55%);
+    mix-blend-mode:multiply;
+  }
+
+  /* ---------- PHOTO LAYER (cover) ---------- */
+  .photo{
+    position:absolute;inset:0;z-index:1;
+    background:
+      radial-gradient(70% 55% at 64% 36%, #6b5e57 0%, #3a342f 45%, #15130f 100%);
+    filter:grayscale(.35) contrast(1.12) brightness(.82);
+  }
+  .photo.has-img{
+    background-size:cover;background-position:center 18%;
+    filter:grayscale(.45) contrast(1.15) brightness(.8);
+  }
+  .photo::before{
+    content:"";position:absolute;inset:0;
+    background:
+      radial-gradient(34% 26% at 64% 30%, rgba(220,210,198,.45), transparent 70%),
+      radial-gradient(50% 60% at 66% 78%, rgba(10,10,12,.85), transparent 70%);
+  }
+  .photo.has-img::before{display:none;}
+  .duotone{
+    position:absolute;inset:0;z-index:2;
+    background:linear-gradient(180deg, rgba(10,10,12,.05) 0%, rgba(10,10,12,.15) 45%, rgba(10,10,12,.92) 100%);
+  }
+
+  /* ---------- COMMON BARS ---------- */
+  .topbar{
+    position:absolute;top:0;left:0;right:0;z-index:7;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:54px 60px;color:var(--bone);
+  }
+  .brand{font-size:44px;font-weight:800;letter-spacing:.01em;}
+  .brand span{color:var(--accent);}
+  .tag{
+    font-size:28px;letter-spacing:.22em;text-transform:uppercase;color:var(--bone-dim);
+    border:1px solid var(--line);padding:14px 28px;border-radius:120px;
+  }
+
+  /* ---------- COVER ---------- */
+  .cover-tag{
+    position:absolute;z-index:7;left:60px;top:178px;
+    display:flex;align-items:center;gap:22px;
+    font-size:30px;letter-spacing:.26em;text-transform:uppercase;color:var(--accent);
+  }
+  .cover-tag::before{content:"";width:74px;height:2px;background:var(--accent);}
+  .cover-title{position:absolute;z-index:7;left:60px;bottom:360px;right:60px;}
+  .cover-title .of{font-style:italic;font-weight:500;color:var(--bone-dim);font-size:58px;margin-bottom:6px;}
+  .cover-title h1{
+    font-weight:900;color:var(--bone);font-size:150px;line-height:.88;
+    letter-spacing:-.01em;text-transform:uppercase;
+  }
+  .cover-meta{
+    position:absolute;z-index:7;left:60px;bottom:90px;right:60px;
+    display:flex;align-items:flex-end;gap:30px;
+    border-top:1px solid var(--line);padding-top:40px;
+  }
+  .cover-meta .pos{font-size:32px;letter-spacing:.18em;text-transform:uppercase;color:var(--bone);}
+  .cover-meta .age{margin-left:auto;font-weight:700;font-size:92px;color:var(--bone);line-height:.8;text-align:right;}
+  .cover-meta .age small{display:block;font-family:'Archivo';font-size:24px;letter-spacing:.18em;color:var(--bone-dim);text-transform:uppercase;}
+
+  /* ---------- MOVE ---------- */
+  .move{position:absolute;inset:0;z-index:1;background:radial-gradient(130% 90% at 50% -10%, #26262c 0%, #121215 60%, #0a0a0c 100%);}
+  .move-head{position:absolute;z-index:7;top:210px;left:0;right:0;text-align:center;}
+  .move-head .eyebrow{font-size:30px;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);}
+  .move-head h2{font-weight:900;text-transform:uppercase;color:var(--bone);font-size:96px;line-height:.96;margin-top:22px;}
+  .transfer{position:absolute;z-index:7;top:52%;left:0;right:0;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;}
+  .club{display:flex;flex-direction:column;align-items:center;gap:30px;padding:14px 0;}
+  .crest{
+    width:240px;height:240px;border-radius:50%;border:2px solid var(--line);
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:78px;color:var(--bone);
+    background:radial-gradient(circle at 50% 30%, rgba(255,255,255,.06), transparent 70%);
+    overflow:hidden;
+  }
+  .crest img{width:100%;height:100%;object-fit:contain;padding:36px;}
+  .club .name{font-size:34px;letter-spacing:.16em;text-transform:uppercase;color:var(--bone);}
+  .club .role{font-size:24px;letter-spacing:.2em;text-transform:uppercase;color:var(--bone-dim);}
+  .arrow{margin:34px 0;display:flex;flex-direction:column;align-items:center;gap:18px;}
+  .arrow .sum{font-style:italic;font-size:40px;color:var(--accent);}
+  .arrow svg{width:70px;height:120px;}
+  .club.from{opacity:.55;}
+  .move-foot{
+    position:absolute;z-index:7;bottom:90px;left:60px;right:60px;
+    border-top:1px solid var(--line);padding-top:40px;
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:28px;letter-spacing:.16em;text-transform:uppercase;color:var(--bone-dim);
+  }
+  .move-foot .src{color:var(--bone);}
+
+  /* ---------- INFO ---------- */
+  .info{position:absolute;inset:0;z-index:1;background:linear-gradient(160deg,#141418 0%,#0a0a0c 100%);}
+  .status-badge{
+    position:absolute;z-index:7;top:210px;left:50%;transform:translateX(-50%);
+    font-size:30px;letter-spacing:.28em;text-transform:uppercase;color:#0a0a0c;
+    background:var(--accent);padding:20px 46px;border-radius:120px;font-weight:700;
+  }
+  .info-name{position:absolute;z-index:7;top:360px;left:60px;right:60px;text-align:center;}
+  .info-name .of{font-style:italic;color:var(--bone-dim);font-size:52px;}
+  .info-name h2{font-weight:900;text-transform:uppercase;color:var(--bone);font-size:118px;line-height:.9;}
+  .stats{
+    position:absolute;z-index:7;top:50%;left:60px;right:60px;transform:translateY(-36%);
+    display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line);border:1px solid var(--line);
+  }
+  .stat{background:#0d0d10;padding:60px 44px;display:flex;flex-direction:column;gap:16px;}
+  .stat .k{font-size:26px;letter-spacing:.2em;text-transform:uppercase;color:var(--bone-dim);}
+  .stat .v{font-weight:800;font-size:74px;color:var(--bone);line-height:1;}
+  .stat .v small{font-family:'Archivo';font-size:32px;color:var(--accent);font-weight:700;}
+  .info-foot{position:absolute;z-index:7;bottom:80px;left:0;right:0;text-align:center;font-style:italic;font-size:38px;color:var(--bone-dim);}
+  .info-foot b{font-style:normal;color:var(--accent);font-weight:700;letter-spacing:.04em;}
+</style>
+</head>
+<body>
+<!-- ===== SLIDE: COVER ===== -->
+<div class="slide serif" data-slide="cover">
+  <div class="photo {{PHOTO_CLASS}}" style="{{PHOTO_STYLE}}"></div>
+  <div class="duotone"></div>
+  <div class="topbar"><div class="brand">MÊLÉE<span>.</span>MERCATO</div><div class="tag">{{COMPET}}</div></div>
+  <div class="cover-tag">{{COVER_TAG}}</div>
+  <div class="cover-title"><div class="of">il quitte {{FROM_SHORT}}</div><h1>{{FIRST}}<br>{{LAST}}</h1></div>
+  <div class="cover-meta"><div class="pos">{{POSTE}}</div><div class="age">{{AGE}}<small>ans</small></div></div>
+</div>
+
+<!-- ===== SLIDE: MOVE ===== -->
+<div class="slide serif" data-slide="move">
+  <div class="move"></div>
+  <div class="move-head"><div class="eyebrow">Le mouvement</div><h2>Il change<br>de maillot</h2></div>
+  <div class="transfer">
+    <div class="club from"><div class="crest">{{FROM_CREST}}</div><div class="name">{{FROM_NAME}}</div><div class="role">Club quitté</div></div>
+    <div class="arrow"><div class="sum">{{ARROW_SUM}}</div>
+      <svg viewBox="0 0 24 40" fill="none" stroke="#c0392f" stroke-width="1.5"><path d="M12 2 L12 34 M5 27 L12 34 L19 27"/></svg>
+    </div>
+    <div class="club"><div class="crest">{{TO_CREST}}</div><div class="name">{{TO_NAME}}</div><div class="role">{{TO_ROLE}}</div></div>
+  </div>
+  <div class="move-foot"><span>{{SEASON}}</span><span class="src">Source · {{SOURCE}}</span></div>
+</div>
+
+<!-- ===== SLIDE: INFO ===== -->
+<div class="slide serif" data-slide="info">
+  <div class="info"></div>
+  <div class="status-badge">{{STATUS}}</div>
+  <div class="info-name"><div class="of">la fiche</div><h2>{{LAST}}</h2></div>
+  <div class="stats">
+    <div class="stat"><div class="k">Poste</div><div class="v">{{POSTE}}</div></div>
+    <div class="stat"><div class="k">Âge</div><div class="v">{{AGE}}<small> ans</small></div></div>
+    <div class="stat"><div class="k">Quitte</div><div class="v">{{FROM_CREST}}</div></div>
+    <div class="stat"><div class="k">Statut</div><div class="v">{{STATUS_SHORT}}</div></div>
+  </div>
+  <div class="info-foot">Suis <b>@melee.mercato</b> pour tout le mercato</div>
+</div>
+</body>
+</html>
