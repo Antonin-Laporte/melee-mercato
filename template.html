@@ -97,6 +97,13 @@
     overflow:hidden;
   }
   .crest img{width:100%;height:100%;object-fit:contain;padding:36px;}
+  /* layout prolongation : un seul club, centre et agrandi */
+  .transfer.solo .arrow,
+  .transfer.solo .club.from{display:none;}
+  .transfer.solo .club .crest{width:300px;height:300px;}
+  .transfer.solo .club .crest img{padding:48px;}
+  .transfer.solo .club .name{font-size:40px;margin-top:10px;}
+  .club.hide{display:none;}
   .club .name{font-size:34px;letter-spacing:.16em;text-transform:uppercase;color:var(--bone);}
   .club .role{font-size:24px;letter-spacing:.2em;text-transform:uppercase;color:var(--bone-dim);}
   .arrow{margin:34px 0;display:flex;flex-direction:column;align-items:center;gap:18px;}
@@ -140,20 +147,20 @@
   <div class="duotone"></div>
   <div class="topbar"><div class="brand">MÊLÉE<span>.</span>MERCATO</div><div class="tag">{{COMPET}}</div></div>
   <div class="cover-tag">{{COVER_TAG}}</div>
-  <div class="cover-title"><div class="of">il quitte {{FROM_SHORT}}</div><h1>{{FIRST}}<br>{{LAST}}</h1></div>
+  <div class="cover-title"><div class="of">{{COVER_OF}}</div><h1>{{FIRST}}<br>{{LAST}}</h1></div>
   <div class="cover-meta"><div class="pos">{{POSTE}}</div><div class="age">{{AGE}}<small>ans</small></div></div>
 </div>
 
 <!-- ===== SLIDE: MOVE ===== -->
 <div class="slide serif" data-slide="move">
   <div class="move"></div>
-  <div class="move-head"><div class="eyebrow">Le mouvement</div><h2>Il change<br>de maillot</h2></div>
-  <div class="transfer">
-    <div class="club from"><div class="crest">{{FROM_CREST}}</div><div class="name">{{FROM_NAME}}</div><div class="role">Club quitté</div></div>
+  <div class="move-head"><div class="eyebrow">{{MOVE_EYEBROW}}</div><h2>{{MOVE_TITLE}}</h2></div>
+  <div class="transfer {{MOVE_LAYOUT}}">
+    <div class="club from"><div class="crest">{{FROM_CREST}}</div><div class="name">{{FROM_NAME}}</div><div class="role">{{FROM_ROLE}}</div></div>
     <div class="arrow"><div class="sum">{{ARROW_SUM}}</div>
-      <svg viewBox="0 0 24 40" fill="none" stroke="#c0392f" stroke-width="1.5"><path d="M12 2 L12 34 M5 27 L12 34 L19 27"/></svg>
+      {{ARROW_SVG}}
     </div>
-    <div class="club"><div class="crest">{{TO_CREST}}</div><div class="name">{{TO_NAME}}</div><div class="role">{{TO_ROLE}}</div></div>
+    <div class="club {{TO_HIDE}}"><div class="crest">{{TO_CREST}}</div><div class="name">{{TO_NAME}}</div><div class="role">{{TO_ROLE}}</div></div>
   </div>
   <div class="move-foot"><span>{{SEASON}}</span><span class="src">Source · {{SOURCE}}</span></div>
 </div>
@@ -166,7 +173,7 @@
   <div class="stats">
     <div class="stat"><div class="k">Poste</div><div class="v">{{POSTE}}</div></div>
     <div class="stat"><div class="k">Âge</div><div class="v">{{AGE}}<small> ans</small></div></div>
-    <div class="stat"><div class="k">Quitte</div><div class="v">{{FROM_CREST}}</div></div>
+    <div class="stat"><div class="k">{{INFO_K3}}</div><div class="v">{{INFO_V3}}</div></div>
     <div class="stat"><div class="k">Statut</div><div class="v">{{STATUS_SHORT}}</div></div>
   </div>
   <div class="info-foot">Suis <b>@melee.mercato</b> pour tout le mercato</div>
