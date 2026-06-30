@@ -101,7 +101,7 @@ def parse_line(line: str) -> Optional[Transfer]:
     m_to = re.search(r"(?:s'engager?\s+avec|rejoint|signe\s+\u00e0)\s+(?:l[ae']\s*)?([A-Z\u00c0-\u017f][\w\u00c0-\u017f'\u2019\-\s]+?)(?:\s+\d|\s+imm\u00e9diatement|,|\s+source|\s+\(|$)", txt)
     if m_to: to_club = m_to.group(1).strip()
     if not to_club and status == "Prolongation":
-        m_pro = re.search(r"prolonge\s+(?:\u00e0|avec)\s+([A-Z\u00c0-\u017f][\w\u00c0-\u017f'\u2019\-\s]+?)(?:\s+\d|,|$)", txt)
+        m_pro = re.search(r"prolonge\s+(?:\u00e0|avec)\s+([A-Z\u00c0-\u017f][\w\u00c0-\u017f'\u2019\-\s]+?)(?:\s+jusqu|\s+\d|\s+pour|,|$)", txt)
         if m_pro: from_club = to_club = m_pro.group(1).strip()
 
     m_src = re.search(r"source\s+(.+?)\s*$", txt, re.IGNORECASE)
