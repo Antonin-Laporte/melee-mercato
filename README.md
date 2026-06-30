@@ -117,6 +117,73 @@ Ca cree `diagnostic_resultat.txt`. Envoie-le moi, je reajuste le parser.
 
 ---
 
+---
+
+## Logos de clubs
+
+Le moteur affiche le **logo du club** s'il est disponible, sinon une
+**abreviation texte** stylisee (UBB, ST, RCT...).
+
+Pour ajouter des logos : depose les fichiers PNG (fond transparent) dans le
+dossier `logos/`, nommes en minuscules sans accents (ex: `toulouse.png`,
+`bordeaux.png`, `clermont.png`). Voir `logos/README.txt` pour la liste complete
+des noms attendus. Tu peux en ajouter au fur et a mesure.
+
+En cloud : pense a uploader le dossier `logos/` (avec tes PNG) dans le repo.
+
+## Photos de joueurs en fond (optionnel)
+
+Le bloc `.photo` du template est deja cable pour recevoir une image de fond
+avec le filtre desature/contraste. Pour l'activer, il faudra brancher une
+source d'images **libres de droits** (tu les fournis). Dis-le a Claude quand tu
+veux franchir cette etape.
+
+## Types de mouvement geres
+
+Le moteur adapte automatiquement le visuel selon le type :
+- **Transfert** : club A -> fleche -> club B
+- **Prolongation** : un seul logo, "Il prolonge l'aventure" (pas de fleche)
+- **Pret** : club preteur -> "en pret" -> club d'accueil
+- **Rumeur** : tag "Rumeur mercato"
+
+---
+
+## Contenu ACTUS (staff, blessures, discipline, incertitudes)
+
+En plus des transferts, le moteur genere des **habillages d'actu** : staff,
+blessures importantes, suspensions, incertitudes — uniquement le gros (clubs
+elite). Tri STRICT par mots-cles : le bruit (sponsors, calendrier, recettes...)
+est ecarte.
+
+### Format special : PNG transparent
+L'habillage actu est un **PNG a fond transparent** :
+- en haut : logo + categorie + club
+- au centre : ZONE TRANSPARENTE -> tu glisses ta photo d'illustration derriere
+  (dans Canva, Photoshop, etc.)
+- en bas : bandeau degrade + titre de l'info
+
+### Utilisation
+```bash
+python3 run_news.py            # actus du jour (tri strict)
+python3 run_news.py --top 2
+python3 run_news.py --demo     # test hors-ligne
+python3 run_news.py --force    # ignorer l'historique
+```
+Resultat : dossier `actus/AAAA-MM-JJ/` avec les PNG transparents + captions.
+Tu glisses ta photo derriere chaque PNG, puis tu postes.
+
+### Source
+Flux RSS de Rugby Addict (agregateur Top 14 / Pro D2). Si ca casse un jour :
+`python3 diagnostic_news.py` puis envoie le resultat a Claude.
+
+### En cloud
+Un 2e workflow (`.github/workflows/actus.yml`) tourne chaque matin ~08h30.
+Recupere l'artifact **actus-du-jour** dans l'onglet Actions.
+
+### Reglages du tri
+Les mots-cles sont dans `news_scraper.py` (listes KW_STAFF, KW_BLESSURE, etc.).
+Ajoute/retire des termes pour affiner ce qui est considere "important".
+
 ## Prochaines etapes (Phase 2)
 
 - Lancement automatique chaque matin (tache planifiee macOS).

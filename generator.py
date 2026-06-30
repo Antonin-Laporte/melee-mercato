@@ -16,6 +16,7 @@ import base64
 import unicodedata
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from club_colors import gradients_for
 
 HERE = Path(__file__).parent
 TEMPLATE = (HERE / "template.html").read_text(encoding="utf-8")
@@ -117,6 +118,13 @@ def fill(transfer) -> str:
     to_html = crest_html(transfer.to_club)
     has_dest = bool(transfer.to_club)
 
+    # couleur = club d'ARRIVEE (ou le club lui-meme en prolongation)
+    if status == "Prolongation":
+        color_club = transfer.from_club or transfer.to_club
+    else:
+        color_club = transfer.to_club or transfer.from_club
+    grad = gradients_for(color_club)
+
     # valeurs communes
     repl = {
         "{{COMPET}}": "Top 14",
@@ -126,6 +134,9 @@ def fill(transfer) -> str:
         "{{AGE}}": str(transfer.age) if transfer.age else "\u2014",
         "{{PHOTO_CLASS}}": "",
         "{{PHOTO_STYLE}}": "",
+        "{{BG_COVER}}": grad["cover"],
+        "{{BG_MOVE}}": grad["move"],
+        "{{BG_INFO}}": grad["info"],
         "{{SEASON}}": "Mercato 2026/27",
         "{{SOURCE}}": transfer.source or "Allrugby",
         "{{STATUS}}": status,
