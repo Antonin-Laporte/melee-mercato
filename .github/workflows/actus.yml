@@ -1,0 +1,41 @@
+name: Melee Mercato - actus du jour
+
+on:
+  schedule:
+    - cron: '30 6 * * *'      # ~08h30 Paris (decale de 30min apres les transferts)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer les dependances
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Generer les habillages actus
+        run: python run_news.py
+      - name: Sauvegarder l'historique actus
+        run: |
+          if [ -f posted_news.json ]; then
+            git config user.name  "melee-mercato-bot"
+            git config user.email "bot@melee-mercato.local"
+            git add posted_news.json
+            git commit -m "maj historique actus" || echo "rien a committer"
+            git push || echo "rien a pousser"
+          fi
+      - name: Empaqueter les habillages
+        uses: actions/upload-artifact@v4
+        with:
+          name: actus-du-jour
+          path: actus/
+          if-no-files-found: ignore
+          retention-days: 14
