@@ -74,6 +74,40 @@
     position:absolute;top:430px;left:0;right:0;bottom:480px;z-index:1;
     border:0;
   }
+
+  /* ====== SLIDE 2 : explication, fond degrade sombre neutre ====== */
+  .bg2{
+    position:absolute;inset:0;z-index:1;
+    background:radial-gradient(125% 90% at 50% -8%, #26262c 0%, #131318 55%, #0a0a0c 100%);
+  }
+  .topbar2{
+    position:absolute;top:0;left:0;right:0;z-index:7;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:60px;color:var(--bone);
+  }
+  .s2-club{
+    position:absolute;z-index:7;top:172px;left:60px;
+    display:flex;align-items:center;gap:24px;
+    font-size:34px;letter-spacing:.18em;text-transform:uppercase;color:var(--bone);
+  }
+  .s2-club .dot{width:14px;height:14px;border-radius:50%;background:var(--accent);}
+  .s2-body{
+    position:absolute;z-index:7;left:60px;right:60px;top:300px;
+  }
+  .s2-eyebrow{
+    font-size:30px;letter-spacing:.26em;text-transform:uppercase;color:var(--accent);
+    display:flex;align-items:center;gap:22px;margin-bottom:34px;
+  }
+  .s2-eyebrow::before{content:"";width:74px;height:2px;background:var(--accent);}
+  .s2-title{
+    font-family:'Bodoni Moda','Didot',serif;font-weight:900;
+    color:var(--bone);font-size:68px;line-height:1.04;letter-spacing:-.005em;
+    margin-bottom:50px;
+  }
+  .s2-text{
+    font-family:'Archivo',sans-serif;font-weight:400;
+    color:#d8d3c8;font-size:40px;line-height:1.5;
+  }
 </style>
 </head>
 <body>
@@ -94,6 +128,27 @@
     <div class="headline">{{HEADLINE}}</div>
     <div class="subline">{{SUBLINE}}</div>
   </div>
+  <div class="foot">
+    <span>{{DATE}}</span>
+    <span class="src">Source · {{SOURCE}}</span>
+  </div>
+</div>
+
+<!-- ===== SLIDE 2 : EXPLICATION (fond degrade sombre) ===== -->
+<div class="slide serif" data-slide="news2">
+  <div class="bg2"></div>
+  <div class="topbar2">
+    <div class="brand">MÊLÉE<span>.</span>MERCATO</div>
+    <div class="cat-tag">{{CATEGORY}}</div>
+  </div>
+  <div class="s2-club"><span class="dot"></span>{{CLUB}}</div>
+
+  <div class="s2-body">
+    <div class="s2-eyebrow">{{EYEBROW}}</div>
+    <div class="s2-title">{{HEADLINE2}}</div>
+    <div class="s2-text">{{ARTICLE}}</div>
+  </div>
+
   <div class="foot">
     <span>{{DATE}}</span>
     <span class="src">Source · {{SOURCE}}</span>

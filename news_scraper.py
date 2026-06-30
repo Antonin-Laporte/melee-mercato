@@ -17,6 +17,16 @@ RSS_URL = "https://www.rugby-addict.com/fr/55d3bd647880b1a27a8b457d/rss"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
+# Plusieurs flux RSS rugby. Le robot les lit tous et fusionne les resultats.
+# Si un flux est mort/bloque, on continue avec les autres (jamais de plantage).
+RSS_FEEDS = [
+    ("Rugby Addict", "https://www.rugby-addict.com/fr/55d3bd647880b1a27a8b457d/rss"),
+    ("Rugbyrama",    "https://www.rugbyrama.fr/rss.xml"),
+    ("Rugbyrama T14","https://www.rugbyrama.fr/rss/top-14.xml"),
+    ("Sports.fr",    "https://www.sports.fr/rss/rugby.xml"),
+    ("Midi Olympique","https://www.midi-olympique.fr/rss"),
+]
+
 # --- Mots-cles de TRI : l'actu doit en contenir au moins un (categorie) ---
 KW_STAFF = ["entraineur","entraîneur","manager","staff","coach","directeur sportif",
             "limoge","demission","démission","nomme","nommé","arrivee staff","president",
@@ -28,19 +38,27 @@ KW_DISCIPLINE = ["suspendu","suspension","cite","cité","commission","sanction",
                  "carton rouge","exclu","banni"]
 KW_INCERTITUDE = ["incertain","doute","menace","pourrait manquer","en balance",
                   "compromis","inquietude","inquiétude","statut"]
+# selections / compositions (surtout international, mais aussi grosses affiches)
+KW_SELECTION = ["compo","composition","selectionne","sélectionne","selection",
+                "sélection","groupe","titulaire","sur le banc","liste","convoque",
+                "convoqué","feuille de match","xv de depart","xv de départ",
+                "retenu","forfait international","capitaine"]
 
-ALL_KW = KW_STAFF + KW_BLESSURE + KW_DISCIPLINE + KW_INCERTITUDE
+ALL_KW = KW_STAFF + KW_BLESSURE + KW_DISCIPLINE + KW_INCERTITUDE + KW_SELECTION
 
 # --- Clubs elite : l'actu doit concerner l'un d'eux ---
 ELITE = ["toulouse","bordeaux","begles","ubb","rochelle","rochelais","racing",
          "stade francais","stade français","clermont","asm","toulon","lyon","lou",
          "castres","montpellier","mhr","pau","paloise","bayonne","aviron","perpignan",
          "usap","vannes","montauban","oyonnax","grenoble","biarritz","brive","nevers",
-         "agen","beziers","béziers","dax","xv de france","equipe de france","bleus"]
+         "agen","beziers","béziers","dax","xv de france","equipe de france",
+         "équipe de france","bleus","france","all blacks","springboks","irlande",
+         "angleterre","pays de galles","ecosse","écosse","italie","selection"]
 
 CATEGORIES = {
-    "Staff": KW_STAFF, "Blessure": KW_BLESSURE,
-    "Discipline": KW_DISCIPLINE, "Incertitude": KW_INCERTITUDE,
+    "Blessure": KW_BLESSURE, "Staff": KW_STAFF,
+    "Discipline": KW_DISCIPLINE, "Selection": KW_SELECTION,
+    "Incertitude": KW_INCERTITUDE,
 }
 
 @dataclass
@@ -57,9 +75,9 @@ class NewsItem:
         s = 0
         low = self.raw.lower()
         if any(c in low for c in ELITE): s += 3
-        if "xv de france" in low or "equipe de france" in low or "bleus" in low: s += 2
+        if any(x in low for x in ["xv de france","equipe de france","équipe de france","bleus"]): s += 3
         # priorite par categorie
-        s += {"Blessure":3,"Staff":3,"Discipline":2,"Incertitude":1}.get(self.category,0)
+        s += {"Blessure":3,"Staff":3,"Selection":3,"Discipline":2,"Incertitude":1}.get(self.category,0)
         return s
 
 
@@ -96,6 +114,9 @@ def fetch_rss(url: str = RSS_URL) -> str:
 
 def detect_club(text: str) -> Optional[str]:
     low = text.lower()
+    # priorite au XV de France s'il est mentionne
+    if any(x in low for x in ["xv de france","equipe de france","équipe de france","les bleus"]):
+        return "XV de France"
     mapping = {
         "toulouse":"Toulouse","stade toulousain":"Toulouse",
         "bordeaux":"Bordeaux","begles":"Bordeaux","ubb":"Bordeaux",
@@ -105,7 +126,10 @@ def detect_club(text: str) -> Optional[str]:
         "lyon":"Lyon","lou":"Lyon","castres":"Castres","montpellier":"Montpellier",
         "pau":"Pau","paloise":"Pau","bayonne":"Bayonne","aviron":"Bayonne",
         "perpignan":"Perpignan","usap":"Perpignan","vannes":"Vannes",
-        "xv de france":"XV de France","equipe de france":"XV de France","bleus":"XV de France",
+        "xv de france":"XV de France","equipe de france":"XV de France",
+        "équipe de france":"XV de France","bleus":"XV de France",
+        "all blacks":"All Blacks","springboks":"Afrique du Sud",
+        "irlande":"Irlande","angleterre":"Angleterre","pays de galles":"Pays de Galles",
     }
     for k, v in mapping.items():
         if k in low:
@@ -121,7 +145,7 @@ def categorize(text: str) -> Optional[str]:
     return None
 
 
-def parse_rss(xml: str) -> List[NewsItem]:
+def parse_rss(xml: str, source_name: str = "Rugby Addict") -> List[NewsItem]:
     items = []
     # extraction simple des <item>...</item>
     blocks = re.findall(r"<item>(.*?)</item>", xml, re.DOTALL | re.IGNORECASE)
@@ -144,19 +168,34 @@ def parse_rss(xml: str) -> List[NewsItem]:
         items.append(NewsItem(
             date=datetime.now().strftime("%Y-%m-%d"),
             title=title, category=cat, club=detect_club(title),
-            source="Rugby Addict", link=link, raw=title,
+            source=source_name, link=link, raw=title,
         ))
     return items
 
 
 def get_news(xml: Optional[str] = None) -> List[NewsItem]:
-    xml = xml if xml is not None else fetch_rss()
     seen, out = set(), []
-    for it in parse_rss(xml):
-        key = it.title[:60]
-        if key not in seen:
-            seen.add(key)
-            out.append(it)
+
+    # mode test : un seul XML fourni directement
+    if xml is not None:
+        for it in parse_rss(xml):
+            key = it.title[:60].lower()
+            if key not in seen:
+                seen.add(key); out.append(it)
+        return out
+
+    # mode reel : on lit TOUS les flux et on fusionne
+    for name, url in RSS_FEEDS:
+        try:
+            raw = fetch_rss(url)
+        except Exception:
+            continue  # flux mort/bloque -> on passe au suivant
+        if "<item" not in raw.lower():
+            continue
+        for it in parse_rss(raw, source_name=name):
+            key = it.title[:60].lower()
+            if key not in seen:
+                seen.add(key); out.append(it)
     return out
 
 

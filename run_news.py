@@ -68,8 +68,10 @@ def main():
     captions, posted = [], set(history)
     for n in news:
         print(f"-> Habillage : [{n.category}] {n.title[:55]}")
-        p = render_news(n, outdir)
-        captions.append(f"=== {n.title[:60]} ===\n{build_caption(n)}\nFichier : {p.name}\n")
+        paths = render_news(n, outdir)
+        files = ", ".join(p.name for p in paths)
+        captions.append(f"=== {n.title[:60]} ===\n{build_caption(n)}\n"
+                        f"Slide 1 (photo derriere) + Slide 2 (texte) : {files}\n")
         posted.add(n.title[:60])
 
     (outdir / "captions_actus.txt").write_text("\n".join(captions), encoding="utf-8")

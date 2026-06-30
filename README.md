@@ -172,9 +172,15 @@ python3 run_news.py --force    # ignorer l'historique
 Resultat : dossier `actus/AAAA-MM-JJ/` avec les PNG transparents + captions.
 Tu glisses ta photo derriere chaque PNG, puis tu postes.
 
-### Source
-Flux RSS de Rugby Addict (agregateur Top 14 / Pro D2). Si ca casse un jour :
-`python3 diagnostic_news.py` puis envoie le resultat a Claude.
+### Sources (multi-flux)
+Le moteur lit PLUSIEURS flux RSS rugby en parallele et fusionne les resultats
+(en dedupliquant) : Rugby Addict, Rugbyrama, Sports.fr, Midi Olympique...
+La liste est dans `news_scraper.py` (RSS_FEEDS) — facile a etendre ou nettoyer.
+Si un flux est mort ou bloque, le robot continue avec les autres (jamais de plantage).
+
+Pour tester quels flux marchent chez toi :
+`python3 diagnostic_news.py` -> il teste chaque flux un par un et dit lesquels
+fonctionnent. Envoie le resultat a Claude pour ajuster la liste.
 
 ### En cloud
 Un 2e workflow (`.github/workflows/actus.yml`) tourne chaque matin ~08h30.
