@@ -41,9 +41,9 @@ def _shorten(txt: str, maxlen: int = 90) -> str:
 
 def fill(news, article_text: str = "") -> str:
     _, phrase = _clean_title(news.title)
-    # headline = la phrase principale, raccourcie ; subline = titre complet si long
-    headline = _shorten(phrase, 80)
-    subline = news.title if len(news.title) > 80 else ""
+    # titre complet (l'auto-ajustement de taille gere la longueur)
+    headline = phrase
+    subline = ""  # plus de sous-ligne dupliquee
 
     repl = {
         "{{CATEGORY}}": news.category,
@@ -51,7 +51,7 @@ def fill(news, article_text: str = "") -> str:
         "{{EYEBROW}}": EYEBROWS.get(news.category, "Actu"),
         "{{HEADLINE}}": headline,
         "{{SUBLINE}}": subline,
-        "{{HEADLINE2}}": _shorten(phrase, 100),
+        "{{HEADLINE2}}": phrase,
         "{{ARTICLE}}": article_text or phrase,
         "{{DATE}}": "Actu du jour",
         "{{SOURCE}}": news.source or "Rugby Addict",
@@ -86,7 +86,7 @@ def render_news(news, outdir: Path, fetch_article: bool = True) -> list:
         b = p.chromium.launch()
         page = b.new_page(viewport={"width":1080,"height":1920})
         page.goto(tmp.as_uri())
-        page.wait_for_timeout(400)
+        page.wait_for_timeout(700)
         # slide 1 : transparente (photo derriere)
         el1 = page.query_selector('[data-slide="news"]')
         out1 = outdir / f"actu_{slug}_1.png"

@@ -154,5 +154,21 @@
     <span class="src">Source · {{SOURCE}}</span>
   </div>
 </div>
+<script>
+  // Auto-ajustement : reduit la police d'un element jusqu'a tenir en hauteur max.
+  function fitText(el, maxHeight, minPx) {
+    if (!el) return;
+    let size = parseFloat(getComputedStyle(el).fontSize);
+    while (el.scrollHeight > maxHeight && size > minPx) {
+      size -= 2;
+      el.style.fontSize = size + "px";
+    }
+  }
+  // slide 1 : headline ne doit pas depasser ~520px de haut
+  fitText(document.querySelector('.headline'), 520, 48);
+  // slide 2 : titre limite + texte article limite
+  fitText(document.querySelector('.s2-title'), 460, 40);
+  fitText(document.querySelector('.s2-text'), 760, 28);
+</script>
 </body>
 </html>

@@ -23,27 +23,49 @@ def _fetch_page_text(url: str) -> str:
         try:
             pg.goto(url, wait_until="domcontentloaded", timeout=25000)
             pg.wait_for_timeout(1500)
-            # on cible les paragraphes de l'article
+            # on cible le corps de l'article en priorite (selecteurs precis d'abord)
             paras = pg.eval_on_selector_all(
-                "article p, .article p, .content p, main p, p",
+                "article p, [class*='article-body'] p, [class*='content-body'] p, "
+                "[itemprop='articleBody'] p, .article-content p, .post-content p, "
+                "main article p, .content p, main p",
                 "els => els.map(e => e.innerText)"
             )
+            # fallback : tous les <p> si rien trouve
+            if not paras or len([p for p in paras if p and len(p) > 50]) < 2:
+                paras = pg.eval_on_selector_all("p", "els => els.map(e => e.innerText)")
         except Exception:
             paras = []
         finally:
             b.close()
     # nettoyage : on garde les paragraphes substantiels
+    PARASITES = [
+        "cookie","abonn","newsletter","publicite","publicité","s'inscrire",
+        "connectez-vous","lire aussi","© ","tous droits","donnees personnelles",
+        "données personnelles","politique de","mentions legales","mentions légales",
+        "vie privee","vie privée","rgpd","consentement","parametrer","paramétrer",
+        "accepter les cookies","gerer mes choix","gérer mes choix","conditions generales",
+        "conditions générales","cgu","cgv","inscrivez-vous","creez un compte",
+        "créez un compte","deja inscrit","déjà inscrit","mot de passe","connexion",
+        "votre adresse e-mail","votre email","s'identifier","identifiez-vous",
+        "recevoir nos","suivez-nous","partager","commentaires","reagir","réagir",
+        "a lire egalement","à lire également","sur le meme sujet","sur le même sujet",
+        "ne ratez aucune","telechargez l'application","téléchargez l'application",
+        "activer les notifications","contenu reserve","contenu réservé","premium",
+        "déjà abonné","deja abonne",
+    ]
     clean = []
     for t in paras:
         t = " ".join((t or "").split())
-        if len(t) < 40:
+        if len(t) < 50:           # on relève le seuil : vrais paragraphes uniquement
             continue
         low = t.lower()
-        # on jette les lignes parasites (cookies, abo, pub...)
-        if any(x in low for x in ["cookie","abonn","newsletter","publicite",
-                                   "publicité","s'inscrire","connectez-vous",
-                                   "lire aussi","© ","tous droits"]):
+        if any(x in low for x in PARASITES):
             continue
+        # un vrai paragraphe d'article finit generalement par une ponctuation
+        if not re.search(r"[.!?»\"]\s*$", t):
+            # tolere si assez long (phrase coupee en fin d'extrait)
+            if len(t) < 90:
+                continue
         clean.append(t)
     return "\n".join(clean[:8])  # max 8 paragraphes utiles
 
