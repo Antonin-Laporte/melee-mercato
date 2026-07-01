@@ -1,0 +1,42 @@
+name: Melee Mercato - actu manuelle
+
+# Declenchement MANUEL uniquement, avec une URL en parametre
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL de l'article a transformer en habillage"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate-manual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer les dependances
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Generer l'habillage depuis l'URL
+        run: python run_manual.py "${{ inputs.url }}"
+      - name: Construire le dashboard
+        run: |
+          python build_manifest.py
+          ls -R docs/data || echo "docs/data absent"
+      - name: Publier
+        run: |
+          git config user.name  "melee-mercato-bot"
+          git config user.email "bot@melee-mercato.local"
+          git add -f docs/ 2>/dev/null || true
+          git status --short
+          git commit -m "actu manuelle ajoutee" || echo "rien a committer"
+          git pull --rebase --autostash origin main 2>/dev/null || true
+          git push || echo "rien a pousser"
