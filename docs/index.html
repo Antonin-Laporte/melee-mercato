@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mêlée Mercato — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,600;0,6..96,800;0,6..96,900;1,6..96,500&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0a0a0c; --panel:#131318; --panel2:#1a1a20;
+    --bone:#f4f1ea; --bone-dim:#9a958a; --accent:#c0392f; --line:rgba(244,241,234,.12);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--ink);color:var(--bone);
+    font-family:'Archivo',system-ui,sans-serif;min-height:100vh;
+    background-image:radial-gradient(120% 60% at 50% -10%, #16161c 0%, #0a0a0c 60%);
+  }
+  .serif{font-family:'Bodoni Moda',serif;}
+  header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:28px 40px;border-bottom:1px solid var(--line);
+    position:sticky;top:0;background:rgba(10,10,12,.85);backdrop-filter:blur(12px);z-index:50;
+  }
+  .brand{font-family:'Bodoni Moda',serif;font-weight:800;font-size:26px;letter-spacing:.01em;}
+  .brand span{color:var(--accent);}
+  .date{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--bone-dim);}
+  .wrap{max-width:1200px;margin:0 auto;padding:40px;}
+  .tabs{display:flex;gap:8px;margin-bottom:40px;border-bottom:1px solid var(--line);}
+  .tab{
+    background:none;border:none;color:var(--bone-dim);cursor:pointer;
+    font-family:'Archivo';font-size:15px;font-weight:700;letter-spacing:.06em;
+    text-transform:uppercase;padding:16px 24px;position:relative;
+  }
+  .tab.active{color:var(--bone);}
+  .tab.active::after{content:"";position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--accent);}
+  .intro{margin-bottom:36px;}
+  .intro h1{font-family:'Bodoni Moda',serif;font-weight:900;font-size:clamp(32px,5vw,52px);line-height:1;margin-bottom:14px;}
+  .intro p{color:var(--bone-dim);font-size:16px;max-width:600px;line-height:1.5;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:28px;}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+    display:flex;flex-direction:column;transition:transform .2s, border-color .2s;
+  }
+  .card:hover{transform:translateY(-4px);border-color:rgba(192,57,47,.5);}
+  .card-media{position:relative;background:#000;aspect-ratio:4/5;overflow:hidden;}
+  .card-media img{width:100%;height:100%;object-fit:cover;display:block;}
+  .slide-nav{
+    position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:6px;
+  }
+  .dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;border:none;padding:0;}
+  .dot.on{background:var(--accent);}
+  .card-body{padding:18px 20px 22px;}
+  .card-title{font-family:'Bodoni Moda',serif;font-weight:700;font-size:20px;margin-bottom:4px;text-transform:capitalize;}
+  .card-sub{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--bone-dim);margin-bottom:16px;}
+  .btns{display:flex;gap:8px;flex-wrap:wrap;}
+  .btn{
+    flex:1;min-width:110px;text-align:center;text-decoration:none;
+    background:var(--accent);color:#0a0a0c;font-weight:700;font-size:13px;
+    padding:11px 14px;border-radius:8px;letter-spacing:.03em;transition:opacity .15s;
+    border:none;cursor:pointer;font-family:'Archivo';
+  }
+  .btn:hover{opacity:.88;}
+  .btn.ghost{background:transparent;color:var(--bone);border:1px solid var(--line);}
+  .btn.ghost:hover{border-color:var(--bone);opacity:1;}
+  .empty{text-align:center;padding:80px 20px;color:var(--bone-dim);}
+  .empty .big{font-family:'Bodoni Moda',serif;font-size:28px;color:var(--bone);margin-bottom:10px;}
+  .badge{
+    display:inline-block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent);border:1px solid rgba(192,57,47,.4);padding:5px 12px;border-radius:40px;margin-bottom:20px;
+  }
+  /* onglet manuel */
+  .manual-box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:32px;max-width:640px;}
+  .manual-box label{display:block;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--bone-dim);margin-bottom:10px;}
+  .manual-box input{
+    width:100%;background:var(--ink);border:1px solid var(--line);border-radius:8px;
+    color:var(--bone);font-size:15px;padding:14px 16px;font-family:'Archivo';margin-bottom:20px;
+  }
+  .manual-box input:focus{outline:none;border-color:var(--accent);}
+  .hint{font-size:13px;color:var(--bone-dim);line-height:1.6;margin-top:18px;}
+  .hint code{background:var(--panel2);padding:2px 7px;border-radius:4px;color:var(--bone);}
+  footer{text-align:center;padding:40px;color:var(--bone-dim);font-size:13px;border-top:1px solid var(--line);margin-top:60px;}
+  @media(max-width:600px){ .wrap{padding:24px;} header{padding:20px 24px;} }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">MÊLÉE<span>.</span>MERCATO</div>
+  <div class="date" id="today">—</div>
+</header>
+
+<div class="wrap">
+  <div class="tabs">
+    <button class="tab active" data-tab="transferts">Transferts</button>
+    <button class="tab" data-tab="actus">Actus</button>
+    <button class="tab" data-tab="manuel">Article manuel</button>
+  </div>
+
+  <!-- TRANSFERTS -->
+  <section id="tab-transferts">
+    <div class="intro">
+      <div class="badge">Carrousels du jour</div>
+      <h1 class="serif">Les transferts</h1>
+      <p>Les mouvements du jour, prêts à poster. Télécharge le carrousel (3 images) et la vidéo pour chaque transfert.</p>
+    </div>
+    <div class="grid" id="grid-transferts"></div>
+  </section>
+
+  <!-- ACTUS -->
+  <section id="tab-actus" hidden>
+    <div class="intro">
+      <div class="badge">Actus du jour</div>
+      <h1 class="serif">L'actu rugby</h1>
+      <p>Staff, blessures, sélections. Slide 1 en transparence (glisse ta photo derrière), slide 2 avec le texte.</p>
+    </div>
+    <div class="grid" id="grid-actus"></div>
+  </section>
+
+  <!-- MANUEL -->
+  <section id="tab-manuel" hidden>
+    <div class="intro">
+      <div class="badge">Génération à la demande</div>
+      <h1 class="serif">Charger un article</h1>
+      <p>Une info que le robot n'a pas captée ? Colle l'URL de l'article, lance la génération, et récupère le résultat dans l'onglet Actus dans quelques minutes.</p>
+    </div>
+    <div class="manual-box">
+      <label for="url">URL de l'article</label>
+      <input id="url" type="url" placeholder="https://www.rugbyrama.fr/...">
+      <button class="btn" id="gen-btn" style="width:100%;">Lancer la génération</button>
+      <div class="hint" id="manual-hint">
+        La génération se fait via le robot GitHub (gratuit). Après avoir cliqué, va dans l'onglet
+        <strong>Actions</strong> de ton repo GitHub pour suivre l'avancement (~3 min), puis reviens ici :
+        le nouvel habillage apparaîtra dans l'onglet <strong>Actus</strong>.
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>Mêlée Mercato · dashboard mis à jour chaque matin</footer>
+
+<script>
+  // ---- config : a remplacer par TON user/repo GitHub ----
+  const GH_USER = "Antonin-Laporte";
+  const GH_REPO = "melee-mercato";
+  const DATA = "data/manifest.json";
+
+  document.getElementById("today").textContent =
+    new Date().toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"});
+
+  // onglets
+  document.querySelectorAll(".tab").forEach(t=>{
+    t.onclick=()=>{
+      document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+      t.classList.add("active");
+      ["transferts","actus","manuel"].forEach(id=>{
+        document.getElementById("tab-"+id).hidden = (id!==t.dataset.tab);
+      });
+    };
+  });
+
+  function card(item, kind, date){
+    const base = `data/${kind}/${date}/`;
+    const slides = item.slides || [];
+    const div = document.createElement("div");
+    div.className="card";
+    const media = document.createElement("div");
+    media.className="card-media";
+    const img = document.createElement("img");
+    img.src = base + slides[0]; img.alt = item.slug;
+    media.appendChild(img);
+    if(slides.length>1){
+      const nav=document.createElement("div"); nav.className="slide-nav";
+      slides.forEach((s,i)=>{
+        const d=document.createElement("button"); d.className="dot"+(i===0?" on":"");
+        d.onclick=()=>{img.src=base+s; nav.querySelectorAll(".dot").forEach(x=>x.classList.remove("on")); d.classList.add("on");};
+        nav.appendChild(d);
+      });
+      media.appendChild(nav);
+    }
+    const body=document.createElement("div"); body.className="card-body";
+    const name = item.slug.replace(/-/g," ");
+    body.innerHTML=`<div class="card-title">${name}</div>
+      <div class="card-sub">${slides.length} slide${slides.length>1?"s":""}${item.video?" + vidéo":""}</div>`;
+    const btns=document.createElement("div"); btns.className="btns";
+    slides.forEach((s,i)=>{
+      const a=document.createElement("a"); a.className="btn ghost"; a.href=base+s; a.download=s;
+      a.textContent="Slide "+(i+1); btns.appendChild(a);
+    });
+    if(item.video){
+      const a=document.createElement("a"); a.className="btn"; a.href=base+item.video; a.download=item.video;
+      a.textContent="Vidéo"; btns.appendChild(a);
+    }
+    body.appendChild(btns);
+    div.appendChild(media); div.appendChild(body);
+    return div;
+  }
+
+  function empty(msg){
+    return `<div class="empty"><div class="big">Rien pour aujourd'hui</div><p>${msg}</p></div>`;
+  }
+
+  fetch(DATA).then(r=>r.json()).then(data=>{
+    const date=data.date;
+    const gt=document.getElementById("grid-transferts");
+    const ga=document.getElementById("grid-actus");
+    if(data.transferts && data.transferts.length){
+      data.transferts.forEach(it=>gt.appendChild(card(it,"transferts",date)));
+    } else { gt.outerHTML = empty("Pas de nouveau transfert marquant. Reviens demain, ou charge un article à la main."); }
+    if(data.actus && data.actus.length){
+      data.actus.forEach(it=>ga.appendChild(card(it,"actus",date)));
+    } else { ga.outerHTML = empty("Pas de grosse actu aujourd'hui. Tu peux en charger une manuellement."); }
+  }).catch(()=>{
+    document.getElementById("grid-transferts").outerHTML =
+      empty("Le dashboard n'a pas encore de données. Lance un run du robot pour générer les contenus du jour.");
+  });
+
+  // bouton manuel : ouvre GitHub Actions (declenchement manuel du workflow)
+  document.getElementById("gen-btn").onclick=()=>{
+    const url=document.getElementById("url").value.trim();
+    if(!url){ document.getElementById("url").focus(); return; }
+    const actionsUrl=`https://github.com/${GH_USER}/${GH_REPO}/actions`;
+    document.getElementById("manual-hint").innerHTML=
+      `URL copiée. Ouvre <a href="${actionsUrl}" target="_blank" style="color:var(--accent)">GitHub Actions</a>, lance le workflow « actu manuelle » en collant cette URL, puis reviens ici dans quelques minutes.`;
+    navigator.clipboard && navigator.clipboard.writeText(url);
+  };
+</script>
+</body>
+</html>
