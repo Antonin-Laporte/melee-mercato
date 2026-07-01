@@ -23,15 +23,22 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Generer les habillages actus
         run: python run_news.py
-      - name: Sauvegarder l'historique actus
+
+      - name: Construire le dashboard (manifest + fichiers)
         run: |
-          if [ -f posted_news.json ]; then
-            git config user.name  "melee-mercato-bot"
-            git config user.email "bot@melee-mercato.local"
-            git add posted_news.json
-            git commit -m "maj historique actus" || echo "rien a committer"
-            git push || echo "rien a pousser"
-          fi
+          python build_manifest.py
+          echo "=== contenu de docs/data ==="
+          ls -R docs/data || echo "docs/data absent"
+
+      - name: Publier sur GitHub Pages + historique
+        run: |
+          git config user.name  "melee-mercato-bot"
+          git config user.email "bot@melee-mercato.local"
+          git add -f docs/ posted_news.json 2>/dev/null || true
+          git status --short
+          git commit -m "maj dashboard + actus du jour" || echo "rien a committer"
+          git pull --rebase --autostash origin main 2>/dev/null || true
+          git push || echo "rien a pousser"
       - name: Empaqueter les habillages
         uses: actions/upload-artifact@v4
         with:
