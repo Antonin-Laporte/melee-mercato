@@ -230,7 +230,7 @@ def render(transfer, outdir: Path) -> list:
     paths = []
     with sync_playwright() as p:
         b = p.chromium.launch()
-        page = b.new_page(viewport={"width":1080,"height":1920}, device_scale_factor=1)
+        page = b.new_page(viewport={"width":1080,"height":1350}, device_scale_factor=1)
         page.goto(tmp.as_uri())
         page.wait_for_timeout(400)
         for i, name in enumerate(["cover","move","info"], 1):

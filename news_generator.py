@@ -84,7 +84,7 @@ def render_news(news, outdir: Path, fetch_article: bool = True) -> list:
     paths = []
     with sync_playwright() as p:
         b = p.chromium.launch()
-        page = b.new_page(viewport={"width":1080,"height":1920})
+        page = b.new_page(viewport={"width":1080,"height":1350})
         page.goto(tmp.as_uri())
         page.wait_for_timeout(700)
         # slide 1 : transparente (photo derriere)

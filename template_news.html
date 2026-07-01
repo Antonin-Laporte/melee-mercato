@@ -6,9 +6,9 @@
   :root{ --bone:#f4f1ea; --bone-dim:#b8b2a6; --accent:#c0392f; --line:rgba(244,241,234,.18); }
   *{margin:0;padding:0;box-sizing:border-box;}
   /* fond TRANSPARENT : la photo sera glissee derriere */
-  html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;}
+  html,body{width:1080px;height:1350px;overflow:hidden;background:transparent;}
   .slide{
-    position:relative;width:1080px;height:1920px;background:transparent;
+    position:relative;width:1080px;height:1350px;background:transparent;
     overflow:hidden;isolation:isolate;
     font-family:'Archivo','Helvetica Neue',Arial,sans-serif;
   }
@@ -16,7 +16,7 @@
 
   /* ----- HAUT : voile sombre + logo + categorie ----- */
   .top-veil{
-    position:absolute;top:0;left:0;right:0;height:420px;z-index:2;
+    position:absolute;top:0;left:0;right:0;height:340px;z-index:2;
     background:linear-gradient(180deg, rgba(8,8,10,.92) 0%, rgba(8,8,10,.7) 55%, rgba(8,8,10,0) 100%);
     pointer-events:none;
   }
@@ -40,7 +40,7 @@
 
   /* ----- BAS : bandeau dégradé + texte info ----- */
   .bottom-veil{
-    position:absolute;bottom:0;left:0;right:0;height:920px;z-index:2;
+    position:absolute;bottom:0;left:0;right:0;height:680px;z-index:2;
     background:linear-gradient(0deg, rgba(8,8,10,.96) 0%, rgba(8,8,10,.9) 38%, rgba(8,8,10,.55) 72%, rgba(8,8,10,0) 100%);
     pointer-events:none;
   }
@@ -165,10 +165,10 @@
     }
   }
   // slide 1 : headline ne doit pas depasser ~520px de haut
-  fitText(document.querySelector('.headline'), 520, 48);
+  fitText(document.querySelector('.headline'), 400, 40);
   // slide 2 : titre limite + texte article limite
-  fitText(document.querySelector('.s2-title'), 460, 40);
-  fitText(document.querySelector('.s2-text'), 760, 28);
+  fitText(document.querySelector('.s2-title'), 380, 34);
+  fitText(document.querySelector('.s2-text'), 560, 24);
 </script>
 </body>
 </html>
