@@ -2,7 +2,7 @@
 video.py — Assemble les 3 slides PNG d'un transfert en un Short vertical MP4.
 
 Effets : leger zoom lent (Ken Burns) sur chaque slide + fondu enchaine entre
-les slides. Sortie 1080x1920, ~8 s, sans audio (a ajouter dans l'editeur
+les slides. Sortie 1080x1350, ~8 s, sans audio (a ajouter dans l'editeur
 YouTube/TikTok au moment de poster).
 
 Necessite FFmpeg installe sur la machine.
