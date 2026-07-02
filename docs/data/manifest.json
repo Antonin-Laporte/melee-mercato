@@ -3,24 +3,53 @@
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-la-composition-de-lirlande",
+      "slug": "actu_championnat-des-nations-debat-a-l-039-ouverture-an",
       "slides": [
-        "actu_championnat-des-nations-la-composition-de-lirlande_1.png",
-        "actu_championnat-des-nations-la-composition-de-lirlande_2.png"
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_1.png",
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_2.png",
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_3.png",
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-la-composition-en-chiffres-neuf-borde",
+      "slug": "actu_transfert-top-14-stade-rochelais-christophe-lousta",
       "slides": [
-        "actu_xv-de-france-la-composition-en-chiffres-neuf-borde_1.png",
-        "actu_xv-de-france-la-composition-en-chiffres-neuf-borde_2.png"
+        "actu_transfert-top-14-stade-rochelais-christophe-lousta_1.png",
+        "actu_transfert-top-14-stade-rochelais-christophe-lousta_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a",
+      "slug": "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-",
       "slides": [
-        "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a_1.png",
-        "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a_2.png"
+        "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-_1.png",
+        "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-_2.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a",
+      "slides": [
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_1.png",
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_2.png",
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_3.png",
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_4.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-quot-notre-systeme-a-ses-particularit",
+      "slides": [
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_1.png",
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_2.png",
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_3.png",
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_4.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-",
+      "slides": [
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_1.png",
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_2.png",
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_3.png",
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_4.png"
       ]
     }
   ]
