@@ -1,7 +1,257 @@
 {
+  "generated": "2026-07-02",
+  "latest": "2026-07-02",
+  "dates": [
+    "2026-07-02",
+    "2026-07-01"
+  ],
+  "days": {
+    "2026-07-02": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-debat-a-l-039-ouverture-an",
+          "slides": [
+            "actu_championnat-des-nations-debat-a-l-039-ouverture-an_1.png",
+            "actu_championnat-des-nations-debat-a-l-039-ouverture-an_2.png",
+            "actu_championnat-des-nations-debat-a-l-039-ouverture-an_3.png",
+            "actu_championnat-des-nations-debat-a-l-039-ouverture-an_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-la-composition-de-lirlande",
+          "slides": [
+            "actu_championnat-des-nations-la-composition-de-lirlande_1.png",
+            "actu_championnat-des-nations-la-composition-de-lirlande_2.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-quot-cette-equipe-a-tisse-",
+          "slides": [
+            "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_1.png",
+            "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_2.png",
+            "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_3.png",
+            "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-xv-de-france-la-compositio",
+          "slides": [
+            "actu_championnat-des-nations-xv-de-france-la-compositio_1.png",
+            "actu_championnat-des-nations-xv-de-france-la-compositio_2.png"
+          ]
+        },
+        {
+          "slug": "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug",
+          "slides": [
+            "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_1.png",
+            "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_2.png",
+            "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_3.png",
+            "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_4.png"
+          ]
+        },
+        {
+          "slug": "actu_exclu-midol-transferts-top-14-toulon-a-trouve-son-",
+          "slides": [
+            "actu_exclu-midol-transferts-top-14-toulon-a-trouve-son-_1.png",
+            "actu_exclu-midol-transferts-top-14-toulon-a-trouve-son-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_finale-top-14-quot-perdre-de-peu-nest-pas-du-tout-",
+          "slides": [
+            "actu_finale-top-14-quot-perdre-de-peu-nest-pas-du-tout-_1.png",
+            "actu_finale-top-14-quot-perdre-de-peu-nest-pas-du-tout-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac",
+          "slides": [
+            "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_1.png",
+            "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_2.png",
+            "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_3.png",
+            "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-travail-physique-nouveau-staff-sourires-les",
+          "slides": [
+            "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_1.png",
+            "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_2.png",
+            "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_3.png",
+            "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03",
+          "slides": [
+            "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03_1.png",
+            "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-naoto-saito-le-tokyo-sungoliath-re",
+          "slides": [
+            "actu_transfert-rugby-naoto-saito-le-tokyo-sungoliath-re_1.png",
+            "actu_transfert-rugby-naoto-saito-le-tokyo-sungoliath-re_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-top-14-stade-rochelais-christophe-lousta",
+          "slides": [
+            "actu_transfert-top-14-stade-rochelais-christophe-lousta_1.png",
+            "actu_transfert-top-14-stade-rochelais-christophe-lousta_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-",
+          "slides": [
+            "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-_1.png",
+            "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-a-34-ans-christophe-loustalot-va-retrou",
+          "slides": [
+            "actu_transferts-a-34-ans-christophe-loustalot-va-retrou_1.png",
+            "actu_transferts-a-34-ans-christophe-loustalot-va-retrou_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-exclu-midol-manex-ariceta-joueur-de-lav",
+          "slides": [
+            "actu_transferts-exclu-midol-manex-ariceta-joueur-de-lav_1.png",
+            "actu_transferts-exclu-midol-manex-ariceta-joueur-de-lav_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-sans-club-depuis-son-depart-de-m",
+          "slides": [
+            "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_1.png",
+            "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_2.png",
+            "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_3.png",
+            "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-la-composition-en-chiffres-neuf-borde",
+          "slides": [
+            "actu_xv-de-france-la-composition-en-chiffres-neuf-borde_1.png",
+            "actu_xv-de-france-la-composition-en-chiffres-neuf-borde_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a",
+          "slides": [
+            "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_1.png",
+            "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_2.png",
+            "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_3.png",
+            "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man",
+          "slides": [
+            "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man_1.png",
+            "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-notre-systeme-a-ses-particularit",
+          "slides": [
+            "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_1.png",
+            "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_2.png",
+            "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_3.png",
+            "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-",
+          "slides": [
+            "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_1.png",
+            "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_2.png",
+            "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_3.png",
+            "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a",
+          "slides": [
+            "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a_1.png",
+            "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a_2.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-01": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-la-composition-des-springb",
+          "slides": [
+            "actu_championnat-des-nations-la-composition-des-springb_1.png",
+            "actu_championnat-des-nations-la-composition-des-springb_2.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-quot-on-va-essayer-de-le-f",
+          "slides": [
+            "actu_championnat-des-nations-quot-on-va-essayer-de-le-f_1.png",
+            "actu_championnat-des-nations-quot-on-va-essayer-de-le-f_2.png"
+          ]
+        },
+        {
+          "slug": "actu_champions-cup-le-tirage-au-sort-complet-des-poules",
+          "slides": [
+            "actu_champions-cup-le-tirage-au-sort-complet-des-poules_1.png",
+            "actu_champions-cup-le-tirage-au-sort-complet-des-poules_2.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-emmanuel-macron-florian-grill-yann-roubert-",
+          "slides": [
+            "actu_top-14-emmanuel-macron-florian-grill-yann-roubert-_1.png",
+            "actu_top-14-emmanuel-macron-florian-grill-yann-roubert-_2.png"
+          ]
+        }
+      ]
+    }
+  },
   "date": "2026-07-02",
   "transferts": [],
   "actus": [
+    {
+      "slug": "actu_championnat-des-nations-debat-a-l-039-ouverture-an",
+      "slides": [
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_1.png",
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_2.png",
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_3.png",
+        "actu_championnat-des-nations-debat-a-l-039-ouverture-an_4.png"
+      ]
+    },
+    {
+      "slug": "actu_championnat-des-nations-la-composition-de-lirlande",
+      "slides": [
+        "actu_championnat-des-nations-la-composition-de-lirlande_1.png",
+        "actu_championnat-des-nations-la-composition-de-lirlande_2.png"
+      ]
+    },
+    {
+      "slug": "actu_championnat-des-nations-quot-cette-equipe-a-tisse-",
+      "slides": [
+        "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_1.png",
+        "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_2.png",
+        "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_3.png",
+        "actu_championnat-des-nations-quot-cette-equipe-a-tisse-_4.png"
+      ]
+    },
+    {
+      "slug": "actu_championnat-des-nations-xv-de-france-la-compositio",
+      "slides": [
+        "actu_championnat-des-nations-xv-de-france-la-compositio_1.png",
+        "actu_championnat-des-nations-xv-de-france-la-compositio_2.png"
+      ]
+    },
     {
       "slug": "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug",
       "slides": [
@@ -9,6 +259,137 @@
         "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_2.png",
         "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_3.png",
         "actu_coupe-du-monde-u20-les-notes-de-france-espagne-hug_4.png"
+      ]
+    },
+    {
+      "slug": "actu_exclu-midol-transferts-top-14-toulon-a-trouve-son-",
+      "slides": [
+        "actu_exclu-midol-transferts-top-14-toulon-a-trouve-son-_1.png",
+        "actu_exclu-midol-transferts-top-14-toulon-a-trouve-son-_2.png"
+      ]
+    },
+    {
+      "slug": "actu_finale-top-14-quot-perdre-de-peu-nest-pas-du-tout-",
+      "slides": [
+        "actu_finale-top-14-quot-perdre-de-peu-nest-pas-du-tout-_1.png",
+        "actu_finale-top-14-quot-perdre-de-peu-nest-pas-du-tout-_2.png"
+      ]
+    },
+    {
+      "slug": "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac",
+      "slides": [
+        "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_1.png",
+        "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_2.png",
+        "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_3.png",
+        "actu_pro-d2-quot-manager-ce-n-039-est-pas-un-metier-fac_4.png"
+      ]
+    },
+    {
+      "slug": "actu_pro-d2-travail-physique-nouveau-staff-sourires-les",
+      "slides": [
+        "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_1.png",
+        "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_2.png",
+        "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_3.png",
+        "actu_pro-d2-travail-physique-nouveau-staff-sourires-les_4.png"
+      ]
+    },
+    {
+      "slug": "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03",
+      "slides": [
+        "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03_1.png",
+        "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03_2.png"
+      ]
+    },
+    {
+      "slug": "actu_transfert-rugby-naoto-saito-le-tokyo-sungoliath-re",
+      "slides": [
+        "actu_transfert-rugby-naoto-saito-le-tokyo-sungoliath-re_1.png",
+        "actu_transfert-rugby-naoto-saito-le-tokyo-sungoliath-re_2.png"
+      ]
+    },
+    {
+      "slug": "actu_transfert-top-14-stade-rochelais-christophe-lousta",
+      "slides": [
+        "actu_transfert-top-14-stade-rochelais-christophe-lousta_1.png",
+        "actu_transfert-top-14-stade-rochelais-christophe-lousta_2.png"
+      ]
+    },
+    {
+      "slug": "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-",
+      "slides": [
+        "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-_1.png",
+        "actu_transfert-top-14-ubb-dan-du-plessis-s-engage-pour-_2.png"
+      ]
+    },
+    {
+      "slug": "actu_transferts-a-34-ans-christophe-loustalot-va-retrou",
+      "slides": [
+        "actu_transferts-a-34-ans-christophe-loustalot-va-retrou_1.png",
+        "actu_transferts-a-34-ans-christophe-loustalot-va-retrou_2.png"
+      ]
+    },
+    {
+      "slug": "actu_transferts-exclu-midol-manex-ariceta-joueur-de-lav",
+      "slides": [
+        "actu_transferts-exclu-midol-manex-ariceta-joueur-de-lav_1.png",
+        "actu_transferts-exclu-midol-manex-ariceta-joueur-de-lav_2.png"
+      ]
+    },
+    {
+      "slug": "actu_transferts-top-14-sans-club-depuis-son-depart-de-m",
+      "slides": [
+        "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_1.png",
+        "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_2.png",
+        "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_3.png",
+        "actu_transferts-top-14-sans-club-depuis-son-depart-de-m_4.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-la-composition-en-chiffres-neuf-borde",
+      "slides": [
+        "actu_xv-de-france-la-composition-en-chiffres-neuf-borde_1.png",
+        "actu_xv-de-france-la-composition-en-chiffres-neuf-borde_2.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a",
+      "slides": [
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_1.png",
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_2.png",
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_3.png",
+        "actu_xv-de-france-quot-il-y-a-toujours-un-challenge-a-a_4.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man",
+      "slides": [
+        "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man_1.png",
+        "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man_2.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-quot-notre-systeme-a-ses-particularit",
+      "slides": [
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_1.png",
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_2.png",
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_3.png",
+        "actu_xv-de-france-quot-notre-systeme-a-ses-particularit_4.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-",
+      "slides": [
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_1.png",
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_2.png",
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_3.png",
+        "actu_xv-de-france-repas-en-plein-air-terrasse-shopping-_4.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a",
+      "slides": [
+        "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a_1.png",
+        "actu_xv-de-france-retour-de-penaud-et-de-spring-bamba-a_2.png"
       ]
     }
   ]
