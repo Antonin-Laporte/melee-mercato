@@ -25,7 +25,10 @@
   }
   .brand{font-family:'Bodoni Moda',serif;font-weight:800;font-size:26px;letter-spacing:.01em;}
   .brand span{color:var(--accent);}
-  .date{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--bone-dim);}
+  .date{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--bone-dim);
+    background:var(--panel);border:1px solid var(--line);border-radius:8px;
+    padding:8px 14px;font-family:'Archivo';cursor:pointer;}
+  .date:focus{outline:none;border-color:var(--accent);}
   .wrap{max-width:1200px;margin:0 auto;padding:40px;}
   .tabs{display:flex;gap:8px;margin-bottom:40px;border-bottom:1px solid var(--line);}
   .tab{
@@ -87,7 +90,7 @@
 <body>
 <header>
   <div class="brand">MÊLÉE<span>.</span>MERCATO</div>
-  <div class="date" id="today">—</div>
+  <select class="date" id="date-select" title="Choisir un jour"></select>
 </header>
 
 <div class="wrap">
@@ -145,9 +148,6 @@
   const GH_REPO = "melee-mercato";
   const DATA = "data/manifest.json";
 
-  document.getElementById("today").textContent =
-    new Date().toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"});
-
   // onglets
   document.querySelectorAll(".tab").forEach(t=>{
     t.onclick=()=>{
@@ -200,18 +200,39 @@
     return `<div class="empty"><div class="big">Rien pour aujourd'hui</div><p>${msg}</p></div>`;
   }
 
-  fetch(DATA).then(r=>r.json()).then(data=>{
-    const date=data.date;
+  let MANIFEST = null;
+
+  function renderDay(date){
+    const day = (MANIFEST.days && MANIFEST.days[date]) || {transferts:[], actus:[]};
     const gt=document.getElementById("grid-transferts");
     const ga=document.getElementById("grid-actus");
-    if(data.transferts && data.transferts.length){
-      data.transferts.forEach(it=>gt.appendChild(card(it,"transferts",date)));
-    } else { gt.outerHTML = empty("Pas de nouveau transfert marquant. Reviens demain, ou charge un article à la main."); }
-    if(data.actus && data.actus.length){
-      data.actus.forEach(it=>ga.appendChild(card(it,"actus",date)));
-    } else { ga.outerHTML = empty("Pas de grosse actu aujourd'hui. Tu peux en charger une manuellement."); }
+    gt.innerHTML=""; ga.innerHTML="";
+    if(day.transferts && day.transferts.length){
+      day.transferts.forEach(it=>gt.appendChild(card(it,"transferts",date)));
+    } else { gt.innerHTML = empty("Pas de transfert ce jour-là. L'actu est le cœur du compte désormais."); }
+    if(day.actus && day.actus.length){
+      day.actus.forEach(it=>ga.appendChild(card(it,"actus",date)));
+    } else { ga.innerHTML = empty("Pas d'actu ce jour-là. Tu peux en charger une manuellement."); }
+  }
+
+  fetch(DATA + "?t=" + Date.now()).then(r=>r.json()).then(data=>{
+    MANIFEST = data;
+    const dates = data.dates || [data.date];
+    // construit le selecteur de date
+    const sel = document.getElementById("date-select");
+    if(sel && dates.length){
+      dates.forEach(d=>{
+        const o=document.createElement("option");
+        o.value=d;
+        o.textContent=new Date(d).toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"});
+        sel.appendChild(o);
+      });
+      sel.value = dates[0];
+      sel.onchange = ()=>renderDay(sel.value);
+    }
+    renderDay(dates[0]);
   }).catch(()=>{
-    document.getElementById("grid-transferts").outerHTML =
+    document.getElementById("grid-transferts").innerHTML =
       empty("Le dashboard n'a pas encore de données. Lance un run du robot pour générer les contenus du jour.");
   });
 
@@ -219,10 +240,15 @@
   document.getElementById("gen-btn").onclick=()=>{
     const url=document.getElementById("url").value.trim();
     if(!url){ document.getElementById("url").focus(); return; }
-    const actionsUrl=`https://github.com/${GH_USER}/${GH_REPO}/actions`;
+    // lien direct vers le workflow "actu manuelle"
+    const wfUrl=`https://github.com/${GH_USER}/${GH_REPO}/actions/workflows/manuel.yml`;
+    if(navigator.clipboard) navigator.clipboard.writeText(url);
     document.getElementById("manual-hint").innerHTML=
-      `URL copiée. Ouvre <a href="${actionsUrl}" target="_blank" style="color:var(--accent)">GitHub Actions</a>, lance le workflow « actu manuelle » en collant cette URL, puis reviens ici dans quelques minutes.`;
-    navigator.clipboard && navigator.clipboard.writeText(url);
+      `<strong>URL copiée ✓</strong><br><br>
+       1. <a href="${wfUrl}" target="_blank" style="color:var(--accent)">Ouvre le workflow « actu manuelle »</a><br>
+       2. Clique <strong>Run workflow</strong> (à droite)<br>
+       3. Colle l'URL dans le champ (Cmd+V), puis <strong>Run workflow</strong><br>
+       4. Attends ~3 min, reviens ici et rafraîchis : l'habillage sera dans l'onglet <strong>Actus</strong>.`;
   };
 </script>
 </body>
