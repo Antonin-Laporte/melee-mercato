@@ -1,8 +1,11 @@
 """
-build_manifest.py — Genere un manifest.json listant les contenus du jour,
-pour que le dashboard sache quoi afficher. Lance apres run.py et run_news.py.
+build_manifest.py — Genere docs/data/manifest.json pour le dashboard.
 
-Copie aussi les fichiers du jour dans docs/ (servi par GitHub Pages).
+2 etapes :
+  1) copie les fichiers FRAICHEMENT generes (carrousels/<date>, actus/<date>)
+     vers docs/data/... (servi par GitHub Pages)
+  2) SCANNE tout docs/data pour lister l'INTEGRALITE des contenus disponibles,
+     groupes par date (le dashboard affiche ainsi tout, pas juste le dernier run)
 """
 from __future__ import annotations
 import json, shutil
@@ -10,60 +13,98 @@ from datetime import datetime
 from pathlib import Path
 
 HERE = Path(__file__).parent
-DOCS = HERE / "docs"           # GitHub Pages sert ce dossier
+DOCS = HERE / "docs"
 DATA = DOCS / "data"
+
+def _copy_fresh(stamp: str):
+    """Copie les fichiers du run courant vers docs/data/."""
+    # transferts
+    tdir = HERE / "carrousels" / stamp
+    if tdir.exists():
+        dest = DATA / "transferts" / stamp
+        dest.mkdir(parents=True, exist_ok=True)
+        for f in tdir.iterdir():
+            if f.suffix in (".png", ".mp4", ".txt"):
+                shutil.copy(f, dest / f.name)
+    # actus
+    adir = HERE / "actus" / stamp
+    if adir.exists():
+        dest = DATA / "actus" / stamp
+        dest.mkdir(parents=True, exist_ok=True)
+        for f in adir.iterdir():
+            if f.suffix in (".png", ".txt"):
+                shutil.copy(f, dest / f.name)
+
+def _scan_transferts(date_dir: Path):
+    players = {}
+    for f in sorted(date_dir.glob("*.png")):
+        slug = f.stem.rsplit("_", 2)[0] if f.stem.count("_") >= 2 else f.stem
+        players.setdefault(slug, {"slug": slug, "slides": [], "video": None})
+        players[slug]["slides"].append(f.name)
+    for f in sorted(date_dir.glob("*.mp4")):
+        slug = f.stem
+        players.setdefault(slug, {"slug": slug, "slides": [], "video": None})
+        players[slug]["video"] = f.name
+    return list(players.values())
+
+def _scan_actus(date_dir: Path):
+    items = {}
+    for f in sorted(date_dir.glob("*.png")):
+        slug = f.stem.rsplit("_", 1)[0]
+        items.setdefault(slug, {"slug": slug, "slides": []})
+        items[slug]["slides"].append(f.name)
+    # tri des slides par numero (_1, _2, ...)
+    for it in items.values():
+        it["slides"].sort(key=lambda n: int(n.rsplit("_",1)[-1].split(".")[0]) if n.rsplit("_",1)[-1].split(".")[0].isdigit() else 0)
+    return list(items.values())
 
 def collect():
     stamp = datetime.now().strftime("%Y-%m-%d")
     DATA.mkdir(parents=True, exist_ok=True)
 
-    entry = {"date": stamp, "transferts": [], "actus": []}
+    # 1) copie les fichiers fraichement generes
+    _copy_fresh(stamp)
 
-    # --- transferts du jour ---
-    tdir = HERE / "carrousels" / stamp
-    if tdir.exists():
-        # regroupe par joueur (slug avant le _1/_2/_3)
-        players = {}
-        for f in sorted(tdir.glob("*.png")):
-            slug = f.stem.rsplit("_", 2)[0] if "_" in f.stem else f.stem
-            players.setdefault(slug, {"slug": slug, "slides": [], "video": None})
-            players[slug]["slides"].append(f.name)
-        for f in tdir.glob("*.mp4"):
-            slug = f.stem
-            players.setdefault(slug, {"slug": slug, "slides": [], "video": None})
-            players[slug]["video"] = f.name
-        # copie les fichiers dans docs/data/transferts/<date>/
-        dest = DATA / "transferts" / stamp
-        dest.mkdir(parents=True, exist_ok=True)
-        for f in tdir.iterdir():
-            if f.suffix in (".png", ".mp4"):
-                shutil.copy(f, dest / f.name)
-        cap = tdir / "captions.txt"
-        if cap.exists():
-            shutil.copy(cap, dest / "captions.txt")
-        entry["transferts"] = list(players.values())
+    # 2) scanne TOUT docs/data, groupe par date
+    days = {}
+    troot = DATA / "transferts"
+    if troot.exists():
+        for date_dir in troot.iterdir():
+            if date_dir.is_dir():
+                lst = _scan_transferts(date_dir)
+                if lst:
+                    days.setdefault(date_dir.name, {"transferts": [], "actus": []})
+                    days[date_dir.name]["transferts"] = lst
+    aroot = DATA / "actus"
+    if aroot.exists():
+        for date_dir in aroot.iterdir():
+            if date_dir.is_dir():
+                lst = _scan_actus(date_dir)
+                if lst:
+                    days.setdefault(date_dir.name, {"transferts": [], "actus": []})
+                    days[date_dir.name]["actus"] = lst
 
-    # --- actus du jour ---
-    adir = HERE / "actus" / stamp
-    if adir.exists():
-        items = {}
-        for f in sorted(adir.glob("*.png")):
-            slug = f.stem.rsplit("_", 1)[0]
-            items.setdefault(slug, {"slug": slug, "slides": []})
-            items[slug]["slides"].append(f.name)
-        dest = DATA / "actus" / stamp
-        dest.mkdir(parents=True, exist_ok=True)
-        for f in adir.iterdir():
-            if f.suffix == ".png":
-                shutil.copy(f, dest / f.name)
-        cap = adir / "captions_actus.txt"
-        if cap.exists():
-            shutil.copy(cap, dest / "captions_actus.txt")
-        entry["actus"] = list(items.values())
+    # dates triees, plus recente d'abord
+    sorted_dates = sorted(days.keys(), reverse=True)
+    latest = sorted_dates[0] if sorted_dates else stamp
+
+    manifest = {
+        "generated": stamp,
+        "latest": latest,
+        "dates": sorted_dates,
+        "days": days,
+        # compat : contenu du jour le plus recent a la racine
+        "date": latest,
+        "transferts": days.get(latest, {}).get("transferts", []),
+        "actus": days.get(latest, {}).get("actus", []),
+    }
 
     (DATA / "manifest.json").write_text(
-        json.dumps(entry, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"manifest.json genere : {len(entry['transferts'])} transferts, {len(entry['actus'])} actus")
+        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    n_act = sum(len(d["actus"]) for d in days.values())
+    n_tr = sum(len(d["transferts"]) for d in days.values())
+    print(f"manifest.json : {len(sorted_dates)} jours, {n_tr} transferts, {n_act} actus au total")
+    print(f"  plus recent ({latest}) : {len(manifest['actus'])} actus, {len(manifest['transferts'])} transferts")
 
 if __name__ == "__main__":
     collect()
