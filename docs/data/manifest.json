@@ -1,12 +1,26 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_champions-cup-le-tirage-au-sort-complet-des-poules",
+      "slug": "actu_championnat-des-nations-xv-de-france-la-compositio",
       "slides": [
-        "actu_champions-cup-le-tirage-au-sort-complet-des-poules_1.png",
-        "actu_champions-cup-le-tirage-au-sort-complet-des-poules_2.png"
+        "actu_championnat-des-nations-xv-de-france-la-compositio_1.png",
+        "actu_championnat-des-nations-xv-de-france-la-compositio_2.png"
+      ]
+    },
+    {
+      "slug": "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03",
+      "slides": [
+        "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03_1.png",
+        "actu_top-14-mathieu-cidre-entraineur-des-avants-de-l-03_2.png"
+      ]
+    },
+    {
+      "slug": "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man",
+      "slides": [
+        "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man_1.png",
+        "actu_xv-de-france-quot-ils-nous-ont-defies-de-belle-man_2.png"
       ]
     }
   ]
