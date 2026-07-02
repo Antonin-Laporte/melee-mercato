@@ -24,6 +24,10 @@ EYEBROWS = {
     "Discipline": "Discipline",
     "Incertitude": "Incertitude",
     "Selection": "Composition / Sélection",
+    "Compo": "Composition",
+    "Transfert": "Mercato",
+    "Match": "Avant-match",
+    "Déclaration": "La déclaration",
 }
 
 def _clean_title(title: str):
@@ -39,11 +43,12 @@ def _shorten(txt: str, maxlen: int = 90) -> str:
     cut = txt[:maxlen].rsplit(" ", 1)[0]
     return cut + "…"
 
-def fill(news, article_text: str = "") -> str:
+def fill(news, article_text: str = "", slide_num: int = 0, slide_total: int = 0) -> str:
     _, phrase = _clean_title(news.title)
-    # titre complet (l'auto-ajustement de taille gere la longueur)
     headline = phrase
-    subline = ""  # plus de sous-ligne dupliquee
+    subline = ""
+    # pagination "2/3" sur les slides texte (si plusieurs)
+    pager = f"{slide_num}/{slide_total}" if slide_total > 1 and slide_num else ""
 
     repl = {
         "{{CATEGORY}}": news.category,
@@ -53,6 +58,7 @@ def fill(news, article_text: str = "") -> str:
         "{{SUBLINE}}": subline,
         "{{HEADLINE2}}": phrase,
         "{{ARTICLE}}": article_text or phrase,
+        "{{PAGER}}": pager,
         "{{DATE}}": "Actu du jour",
         "{{SOURCE}}": news.source or "Rugby Addict",
     }
@@ -69,36 +75,51 @@ def render_news(news, outdir: Path, fetch_article: bool = True) -> list:
     outdir = Path(outdir).resolve()
     outdir.mkdir(parents=True, exist_ok=True)
 
-    # recupere le resume de l'article (slide 2), fallback sur le titre
-    article_text = ""
+    # 1) recupere le corps de l'article et le REFORMULE en blocs
+    from article_extract import get_body
+    from rewrite import rewrite, chunk_for_slides
+    text_slides = []
     if fetch_article:
         try:
-            article_text = summarize(news.title, getattr(news, "link", None))
+            body = get_body(news.title, getattr(news, "link", None))
+            if body:
+                paras = rewrite(news.title, body, target_sentences=9)
+                text_slides = chunk_for_slides(paras, per_slide_chars=300)
         except Exception:
-            article_text = ""
+            text_slides = []
+    if not text_slides:
+        phrase = news.title.split(" : ", 1)[-1] if " : " in news.title else news.title
+        text_slides = [phrase.strip()]
 
-    html = fill(news, article_text)
-    tmp = outdir / "_news_render.html"
-    tmp.write_text(html, encoding="utf-8")
     slug = slugify(news.title) or "actu"
     paths = []
     with sync_playwright() as p:
         b = p.chromium.launch()
         page = b.new_page(viewport={"width":1080,"height":1920})
-        page.goto(tmp.as_uri())
-        page.wait_for_timeout(700)
-        # slide 1 : transparente (photo derriere)
+
+        # SLIDE 1 : habillage photo transparent
+        html1 = fill(news, text_slides[0])
+        tmp1 = outdir / "_n1.html"; tmp1.write_text(html1, encoding="utf-8")
+        page.goto(tmp1.as_uri()); page.wait_for_timeout(700)
         el1 = page.query_selector('[data-slide="news"]')
         out1 = outdir / f"actu_{slug}_1.png"
         el1.screenshot(path=str(out1), omit_background=True)
         paths.append(out1)
-        # slide 2 : pleine (fond degrade sombre)
-        el2 = page.query_selector('[data-slide="news2"]')
-        out2 = outdir / f"actu_{slug}_2.png"
-        el2.screenshot(path=str(out2))
-        paths.append(out2)
+        tmp1.unlink(missing_ok=True)
+
+        # SLIDES TEXTE : une par bloc reformule
+        total = len(text_slides)
+        for idx, chunk in enumerate(text_slides, start=1):
+            html2 = fill(news, chunk, slide_num=idx, slide_total=total)
+            tmp2 = outdir / f"_n2_{idx}.html"; tmp2.write_text(html2, encoding="utf-8")
+            page.goto(tmp2.as_uri()); page.wait_for_timeout(700)
+            el2 = page.query_selector('[data-slide="news2"]')
+            out2 = outdir / f"actu_{slug}_{idx+1}.png"
+            el2.screenshot(path=str(out2))
+            paths.append(out2)
+            tmp2.unlink(missing_ok=True)
+
         b.close()
-    tmp.unlink(missing_ok=True)
     return paths
 
 if __name__ == "__main__":

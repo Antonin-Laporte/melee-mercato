@@ -37,7 +37,7 @@ def build_caption(n: NewsItem) -> str:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--top", type=int, default=3)
+    ap.add_argument("--top", type=int, default=6)
     ap.add_argument("--demo", action="store_true")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()

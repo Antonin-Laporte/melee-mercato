@@ -67,36 +67,28 @@ def _fetch_page_text(url: str) -> str:
             if len(t) < 90:
                 continue
         clean.append(t)
-    return "\n".join(clean[:8])  # max 8 paragraphes utiles
+    return "\n".join(clean[:14])  # plus de matiere pour reformuler
 
 
 def summarize(title: str, link: Optional[str], max_chars: int = 360) -> str:
-    """Renvoie un resume court de l'article. Fallback sur le titre si besoin."""
-    body = ""
-    if link:
-        try:
-            body = _fetch_page_text(link)
-        except Exception:
-            body = ""
-
+    """Compat : renvoie un resume court (1 bloc). Pour le multi-slide, voir get_body()."""
+    body = get_body(title, link)
     if not body:
-        # fallback : reformulation simple a partir du titre
-        _, phrase = (title.split(" : ", 1) + [title])[:2] if " : " in title else (None, title)
-        return phrase.strip()
+        return (title.split(" : ", 1)[-1] if " : " in title else title).strip()
+    from rewrite import rewrite, chunk_for_slides
+    paras = rewrite(title, body)
+    slides = chunk_for_slides(paras)
+    return slides[0] if slides else title
 
-    # on prend les 1eres phrases jusqu'a ~max_chars
-    sentences = re.split(r"(?<=[.!?])\s+", body.replace("\n", " "))
-    out, total = [], 0
-    for s in sentences:
-        s = s.strip()
-        if not s:
-            continue
-        if total + len(s) > max_chars and out:
-            break
-        out.append(s)
-        total += len(s)
-    summary = " ".join(out).strip()
-    return summary or title
+
+def get_body(title: str, link: Optional[str]) -> str:
+    """Recupere le corps brut de l'article (pour reformulation multi-slide)."""
+    if not link:
+        return ""
+    try:
+        return _fetch_page_text(link)
+    except Exception:
+        return ""
 
 
 if __name__ == "__main__":

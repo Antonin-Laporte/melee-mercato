@@ -35,16 +35,32 @@ KW_BLESSURE = ["blessure","blesse","blessé","forfait","indisponible","operation
                "opération","ligaments","croises","croisés","ischio","commotion",
                "rechute","infirmerie","absence","out ","saison terminee","saison terminée"]
 KW_DISCIPLINE = ["suspendu","suspension","cite","cité","commission","sanction",
-                 "carton rouge","exclu","banni"]
+                 "carton rouge","carton","exclu","banni","citation","proces","procès"]
 KW_INCERTITUDE = ["incertain","doute","menace","pourrait manquer","en balance",
-                  "compromis","inquietude","inquiétude","statut"]
-# selections / compositions (surtout international, mais aussi grosses affiches)
+                  "compromis","inquietude","inquiétude","statut","suspense"]
+# selections / compositions (surtout international)
 KW_SELECTION = ["compo","composition","selectionne","sélectionne","selection",
                 "sélection","groupe","titulaire","sur le banc","liste","convoque",
                 "convoqué","feuille de match","xv de depart","xv de départ",
-                "retenu","forfait international","capitaine"]
+                "retenu","forfait international","capitaine","capitanat","onze","quinze de depart"]
+# matchs, resultats, avant/apres match
+KW_MATCH = ["match","victoire","defaite","défaite","bat ","battu","s'impose","gagne",
+            "perd","score","resultat","résultat","affronte","recoit","reçoit","deplace",
+            "déplace","test-match","test match","tournoi","phase finale","demi-finale",
+            "finale","quart de finale","barrage","derby","choc","affiche","recois",
+            "va defier","défie","opposé","duel","rencontre","journee","journée"]
+# transferts / marche (garde pour les GROS transferts qui font l'actu)
+KW_TRANSFERT = ["signe","transfert","rejoint","s'engage","recrute","arrive","depart",
+                "départ","prolonge","prolongation","quitte","officialise","recrue",
+                "piste","viser","convoite","cible","bon de sortie","fin de contrat"]
+# declarations, interviews, polemiques
+KW_DECLARATION = ["declare","déclare","affirme","reagit","réagit","repond","répond",
+                  "confie","estime","juge","critique","clash","polemique","polémique",
+                  "annonce","revele","révèle","explique","raconte","tacle","interview",
+                  "sort du silence","se confie","message","reaction","réaction"]
 
-ALL_KW = KW_STAFF + KW_BLESSURE + KW_DISCIPLINE + KW_INCERTITUDE + KW_SELECTION
+ALL_KW = (KW_STAFF + KW_BLESSURE + KW_DISCIPLINE + KW_INCERTITUDE + KW_SELECTION
+          + KW_MATCH + KW_TRANSFERT + KW_DECLARATION)
 
 # --- Clubs elite : l'actu doit concerner l'un d'eux ---
 ELITE = ["toulouse","bordeaux","begles","ubb","rochelle","rochelais","racing",
@@ -53,12 +69,14 @@ ELITE = ["toulouse","bordeaux","begles","ubb","rochelle","rochelais","racing",
          "usap","vannes","montauban","oyonnax","grenoble","biarritz","brive","nevers",
          "agen","beziers","béziers","dax","xv de france","equipe de france",
          "équipe de france","bleus","france","all blacks","springboks","irlande",
-         "angleterre","pays de galles","ecosse","écosse","italie","selection"]
+         "angleterre","pays de galles","ecosse","écosse","italie","selection",
+         "top 14","top14","pro d2","champions cup","coupe d'europe","galthie","galthié",
+         "dupont","ntamack","penaud","ramos","alldritt"]
 
 CATEGORIES = {
-    "Blessure": KW_BLESSURE, "Staff": KW_STAFF,
-    "Discipline": KW_DISCIPLINE, "Selection": KW_SELECTION,
-    "Incertitude": KW_INCERTITUDE,
+    "Compo": KW_SELECTION, "Blessure": KW_BLESSURE, "Discipline": KW_DISCIPLINE,
+    "Staff": KW_STAFF, "Transfert": KW_TRANSFERT, "Match": KW_MATCH,
+    "Déclaration": KW_DECLARATION, "Incertitude": KW_INCERTITUDE,
 }
 
 @dataclass
@@ -77,7 +95,8 @@ class NewsItem:
         if any(c in low for c in ELITE): s += 3
         if any(x in low for x in ["xv de france","equipe de france","équipe de france","bleus"]): s += 3
         # priorite par categorie
-        s += {"Blessure":3,"Staff":3,"Selection":3,"Discipline":2,"Incertitude":1}.get(self.category,0)
+        s += {"Compo":3,"Blessure":3,"Staff":3,"Transfert":3,"Discipline":2,
+              "Match":2,"Déclaration":2,"Incertitude":1}.get(self.category,0)
         return s
 
 
@@ -199,7 +218,7 @@ def get_news(xml: Optional[str] = None) -> List[NewsItem]:
     return out
 
 
-def select_top_news(items: List[NewsItem], n: int = 3) -> List[NewsItem]:
+def select_top_news(items: List[NewsItem], n: int = 6) -> List[NewsItem]:
     return sorted(items, key=lambda i: i.score(), reverse=True)[:n]
 
 
