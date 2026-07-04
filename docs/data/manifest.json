@@ -1,12 +1,68 @@
 {
-  "generated": "2026-07-03",
-  "latest": "2026-07-03",
+  "generated": "2026-07-04",
+  "latest": "2026-07-04",
   "dates": [
+    "2026-07-04",
     "2026-07-03",
     "2026-07-02",
     "2026-07-01"
   ],
   "days": {
+    "2026-07-04": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-a-quelle-heure-et-sur-quel",
+          "slides": [
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_1.png",
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_2.png",
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_3.png",
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-nouvelle-zelande-france-re",
+          "slides": [
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_1.png",
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_2.png",
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_3.png",
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_4.png"
+          ]
+        },
+        {
+          "slug": "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les",
+          "slides": [
+            "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_1.png",
+            "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_2.png"
+          ]
+        },
+        {
+          "slug": "actu_la-rochelle-george-moala-renforce-un-recrutement-d",
+          "slides": [
+            "actu_la-rochelle-george-moala-renforce-un-recrutement-d_1.png",
+            "actu_la-rochelle-george-moala-renforce-un-recrutement-d_2.png"
+          ]
+        },
+        {
+          "slug": "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa",
+          "slides": [
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_1.png",
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_2.png",
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_3.png",
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi",
+          "slides": [
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_1.png",
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_2.png",
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_3.png",
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-03": {
       "transferts": [],
       "actus": [
@@ -275,59 +331,57 @@
       ]
     }
   },
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-will-jordan-nouvelle-zelan",
+      "slug": "actu_championnat-des-nations-a-quelle-heure-et-sur-quel",
       "slides": [
-        "actu_championnat-des-nations-will-jordan-nouvelle-zelan_1.png",
-        "actu_championnat-des-nations-will-jordan-nouvelle-zelan_2.png",
-        "actu_championnat-des-nations-will-jordan-nouvelle-zelan_3.png",
-        "actu_championnat-des-nations-will-jordan-nouvelle-zelan_4.png"
+        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_1.png",
+        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_2.png",
+        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_3.png",
+        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_4.png"
       ]
     },
     {
-      "slug": "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro",
+      "slug": "actu_championnat-des-nations-nouvelle-zelande-france-re",
       "slides": [
-        "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro_1.png",
-        "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro_2.png"
+        "actu_championnat-des-nations-nouvelle-zelande-france-re_1.png",
+        "actu_championnat-des-nations-nouvelle-zelande-france-re_2.png",
+        "actu_championnat-des-nations-nouvelle-zelande-france-re_3.png",
+        "actu_championnat-des-nations-nouvelle-zelande-france-re_4.png"
       ]
     },
     {
-      "slug": "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr",
+      "slug": "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les",
       "slides": [
-        "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_1.png",
-        "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_2.png",
-        "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_3.png",
-        "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_4.png"
+        "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_1.png",
+        "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-championnat-des-nations-quot-nous-aim",
+      "slug": "actu_la-rochelle-george-moala-renforce-un-recrutement-d",
       "slides": [
-        "actu_xv-de-france-championnat-des-nations-quot-nous-aim_1.png",
-        "actu_xv-de-france-championnat-des-nations-quot-nous-aim_2.png",
-        "actu_xv-de-france-championnat-des-nations-quot-nous-aim_3.png",
-        "actu_xv-de-france-championnat-des-nations-quot-nous-aim_4.png"
+        "actu_la-rochelle-george-moala-renforce-un-recrutement-d_1.png",
+        "actu_la-rochelle-george-moala-renforce-un-recrutement-d_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-championnat-des-nations-quot-quels-qu",
+      "slug": "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa",
       "slides": [
-        "actu_xv-de-france-championnat-des-nations-quot-quels-qu_1.png",
-        "actu_xv-de-france-championnat-des-nations-quot-quels-qu_2.png",
-        "actu_xv-de-france-championnat-des-nations-quot-quels-qu_3.png",
-        "actu_xv-de-france-championnat-des-nations-quot-quels-qu_4.png"
+        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_1.png",
+        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_2.png",
+        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_3.png",
+        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-championnat-des-nations-quot-si-on-fa",
+      "slug": "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi",
       "slides": [
-        "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_1.png",
-        "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_2.png",
-        "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_3.png",
-        "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_4.png"
+        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_1.png",
+        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_2.png",
+        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_3.png",
+        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_4.png"
       ]
     }
   ]
