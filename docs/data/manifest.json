@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-04",
-  "latest": "2026-07-04",
+  "generated": "2026-07-05",
+  "latest": "2026-07-05",
   "dates": [
+    "2026-07-05",
     "2026-07-04",
     "2026-07-03",
     "2026-07-02",
@@ -297,6 +298,65 @@
         }
       ]
     },
+    "2026-07-05": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-quest-ce-que-change-la-def",
+          "slides": [
+            "actu_championnat-des-nations-quest-ce-que-change-la-def_1.png",
+            "actu_championnat-des-nations-quest-ce-que-change-la-def_2.png",
+            "actu_championnat-des-nations-quest-ce-que-change-la-def_3.png",
+            "actu_championnat-des-nations-quest-ce-que-change-la-def_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-sur-courant-alternatif-l-0",
+          "slides": [
+            "actu_championnat-des-nations-sur-courant-alternatif-l-0_1.png",
+            "actu_championnat-des-nations-sur-courant-alternatif-l-0_2.png",
+            "actu_championnat-des-nations-sur-courant-alternatif-l-0_3.png",
+            "actu_championnat-des-nations-sur-courant-alternatif-l-0_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav",
+          "slides": [
+            "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_1.png",
+            "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_2.png",
+            "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_3.png",
+            "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_4.png"
+          ]
+        },
+        {
+          "slug": "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-",
+          "slides": [
+            "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_1.png",
+            "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_2.png",
+            "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_3.png",
+            "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha",
+          "slides": [
+            "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_1.png",
+            "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_2.png",
+            "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_3.png",
+            "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p",
+          "slides": [
+            "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_1.png",
+            "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_2.png",
+            "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_3.png",
+            "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-01": {
       "transferts": [],
       "actus": [
@@ -331,57 +391,61 @@
       ]
     }
   },
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-a-quelle-heure-et-sur-quel",
+      "slug": "actu_championnat-des-nations-quest-ce-que-change-la-def",
       "slides": [
-        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_1.png",
-        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_2.png",
-        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_3.png",
-        "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_4.png"
+        "actu_championnat-des-nations-quest-ce-que-change-la-def_1.png",
+        "actu_championnat-des-nations-quest-ce-que-change-la-def_2.png",
+        "actu_championnat-des-nations-quest-ce-que-change-la-def_3.png",
+        "actu_championnat-des-nations-quest-ce-que-change-la-def_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-nouvelle-zelande-france-re",
+      "slug": "actu_championnat-des-nations-sur-courant-alternatif-l-0",
       "slides": [
-        "actu_championnat-des-nations-nouvelle-zelande-france-re_1.png",
-        "actu_championnat-des-nations-nouvelle-zelande-france-re_2.png",
-        "actu_championnat-des-nations-nouvelle-zelande-france-re_3.png",
-        "actu_championnat-des-nations-nouvelle-zelande-france-re_4.png"
+        "actu_championnat-des-nations-sur-courant-alternatif-l-0_1.png",
+        "actu_championnat-des-nations-sur-courant-alternatif-l-0_2.png",
+        "actu_championnat-des-nations-sur-courant-alternatif-l-0_3.png",
+        "actu_championnat-des-nations-sur-courant-alternatif-l-0_4.png"
       ]
     },
     {
-      "slug": "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les",
+      "slug": "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav",
       "slides": [
-        "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_1.png",
-        "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_2.png"
+        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_1.png",
+        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_2.png",
+        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_3.png",
+        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_4.png"
       ]
     },
     {
-      "slug": "actu_la-rochelle-george-moala-renforce-un-recrutement-d",
+      "slug": "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-",
       "slides": [
-        "actu_la-rochelle-george-moala-renforce-un-recrutement-d_1.png",
-        "actu_la-rochelle-george-moala-renforce-un-recrutement-d_2.png"
+        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_1.png",
+        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_2.png",
+        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_3.png",
+        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_4.png"
       ]
     },
     {
-      "slug": "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa",
+      "slug": "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha",
       "slides": [
-        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_1.png",
-        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_2.png",
-        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_3.png",
-        "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_4.png"
+        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_1.png",
+        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_2.png",
+        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_3.png",
+        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_4.png"
       ]
     },
     {
-      "slug": "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi",
+      "slug": "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p",
       "slides": [
-        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_1.png",
-        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_2.png",
-        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_3.png",
-        "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_4.png"
+        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_1.png",
+        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_2.png",
+        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_3.png",
+        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_4.png"
       ]
     }
   ]
