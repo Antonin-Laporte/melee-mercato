@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-05",
-  "latest": "2026-07-05",
+  "generated": "2026-07-06",
+  "latest": "2026-07-06",
   "dates": [
+    "2026-07-06",
     "2026-07-05",
     "2026-07-04",
     "2026-07-03",
@@ -389,63 +390,114 @@
           ]
         }
       ]
+    },
+    "2026-07-06": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-l-039-actu-du-xv-de-france",
+          "slides": [
+            "actu_championnat-des-nations-l-039-actu-du-xv-de-france_1.png",
+            "actu_championnat-des-nations-l-039-actu-du-xv-de-france_2.png",
+            "actu_championnat-des-nations-l-039-actu-du-xv-de-france_3.png",
+            "actu_championnat-des-nations-l-039-actu-du-xv-de-france_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-la-journee-des-bleus-reuni",
+          "slides": [
+            "actu_championnat-des-nations-la-journee-des-bleus-reuni_1.png",
+            "actu_championnat-des-nations-la-journee-des-bleus-reuni_2.png",
+            "actu_championnat-des-nations-la-journee-des-bleus-reuni_3.png",
+            "actu_championnat-des-nations-la-journee-des-bleus-reuni_4.png"
+          ]
+        },
+        {
+          "slug": "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-",
+          "slides": [
+            "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_1.png",
+            "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_2.png",
+            "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_3.png",
+            "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud",
+          "slides": [
+            "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_1.png",
+            "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_2.png",
+            "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_3.png",
+            "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n",
+          "slides": [
+            "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n_1.png",
+            "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-",
+          "slides": [
+            "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_1.png",
+            "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_2.png"
+          ]
+        }
+      ]
     }
   },
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-quest-ce-que-change-la-def",
+      "slug": "actu_championnat-des-nations-l-039-actu-du-xv-de-france",
       "slides": [
-        "actu_championnat-des-nations-quest-ce-que-change-la-def_1.png",
-        "actu_championnat-des-nations-quest-ce-que-change-la-def_2.png",
-        "actu_championnat-des-nations-quest-ce-que-change-la-def_3.png",
-        "actu_championnat-des-nations-quest-ce-que-change-la-def_4.png"
+        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_1.png",
+        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_2.png",
+        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_3.png",
+        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-sur-courant-alternatif-l-0",
+      "slug": "actu_championnat-des-nations-la-journee-des-bleus-reuni",
       "slides": [
-        "actu_championnat-des-nations-sur-courant-alternatif-l-0_1.png",
-        "actu_championnat-des-nations-sur-courant-alternatif-l-0_2.png",
-        "actu_championnat-des-nations-sur-courant-alternatif-l-0_3.png",
-        "actu_championnat-des-nations-sur-courant-alternatif-l-0_4.png"
+        "actu_championnat-des-nations-la-journee-des-bleus-reuni_1.png",
+        "actu_championnat-des-nations-la-journee-des-bleus-reuni_2.png",
+        "actu_championnat-des-nations-la-journee-des-bleus-reuni_3.png",
+        "actu_championnat-des-nations-la-journee-des-bleus-reuni_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav",
+      "slug": "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-",
       "slides": [
-        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_1.png",
-        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_2.png",
-        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_3.png",
-        "actu_championnat-des-nations-tout-ce-qu-039-il-faut-sav_4.png"
+        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_1.png",
+        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_2.png",
+        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_3.png",
+        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_4.png"
       ]
     },
     {
-      "slug": "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-",
+      "slug": "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud",
       "slides": [
-        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_1.png",
-        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_2.png",
-        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_3.png",
-        "actu_nouvelle-zelande-france-quot-la-balle-de-match-on-_4.png"
+        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_1.png",
+        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_2.png",
+        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_3.png",
+        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_4.png"
       ]
     },
     {
-      "slug": "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha",
+      "slug": "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n",
       "slides": [
-        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_1.png",
-        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_2.png",
-        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_3.png",
-        "actu_nouvelle-zelande-france-quot-les-blacks-ont-eu-cha_4.png"
+        "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n_1.png",
+        "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p",
+      "slug": "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-",
       "slides": [
-        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_1.png",
-        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_2.png",
-        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_3.png",
-        "actu_xv-de-france-quot-on-peut-faire-mieux-mais-on-na-p_4.png"
+        "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_1.png",
+        "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_2.png"
       ]
     }
   ]
