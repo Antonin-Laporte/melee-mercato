@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-06",
-  "latest": "2026-07-06",
+  "generated": "2026-07-07",
+  "latest": "2026-07-07",
   "dates": [
+    "2026-07-07",
     "2026-07-06",
     "2026-07-05",
     "2026-07-04",
@@ -445,59 +446,114 @@
           ]
         }
       ]
+    },
+    "2026-07-07": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-indiscipline-points-laisse",
+          "slides": [
+            "actu_championnat-des-nations-indiscipline-points-laisse_1.png",
+            "actu_championnat-des-nations-indiscipline-points-laisse_2.png",
+            "actu_championnat-des-nations-indiscipline-points-laisse_3.png",
+            "actu_championnat-des-nations-indiscipline-points-laisse_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s",
+          "slides": [
+            "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_1.png",
+            "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba",
+          "slides": [
+            "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_1.png",
+            "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c",
+          "slides": [
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_1.png",
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_2.png",
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_3.png",
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0",
+          "slides": [
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_1.png",
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_2.png",
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_3.png",
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg",
+          "slides": [
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_1.png",
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_2.png",
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_3.png",
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_4.png"
+          ]
+        }
+      ]
     }
   },
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-l-039-actu-du-xv-de-france",
+      "slug": "actu_championnat-des-nations-indiscipline-points-laisse",
       "slides": [
-        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_1.png",
-        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_2.png",
-        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_3.png",
-        "actu_championnat-des-nations-l-039-actu-du-xv-de-france_4.png"
+        "actu_championnat-des-nations-indiscipline-points-laisse_1.png",
+        "actu_championnat-des-nations-indiscipline-points-laisse_2.png",
+        "actu_championnat-des-nations-indiscipline-points-laisse_3.png",
+        "actu_championnat-des-nations-indiscipline-points-laisse_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-la-journee-des-bleus-reuni",
+      "slug": "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s",
       "slides": [
-        "actu_championnat-des-nations-la-journee-des-bleus-reuni_1.png",
-        "actu_championnat-des-nations-la-journee-des-bleus-reuni_2.png",
-        "actu_championnat-des-nations-la-journee-des-bleus-reuni_3.png",
-        "actu_championnat-des-nations-la-journee-des-bleus-reuni_4.png"
+        "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_1.png",
+        "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_2.png"
       ]
     },
     {
-      "slug": "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-",
+      "slug": "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba",
       "slides": [
-        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_1.png",
-        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_2.png",
-        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_3.png",
-        "actu_nouvelle-zelande-france-quot-un-plongeon-digne-de-_4.png"
+        "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_1.png",
+        "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud",
+      "slug": "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c",
       "slides": [
-        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_1.png",
-        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_2.png",
-        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_3.png",
-        "actu_xv-de-france-coup-dur-pour-les-bleus-damian-penaud_4.png"
+        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_1.png",
+        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_2.png",
+        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_3.png",
+        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n",
+      "slug": "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0",
       "slides": [
-        "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n_1.png",
-        "actu_xv-de-france-finalistes-du-top-14-debat-jalibert-n_2.png"
+        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_1.png",
+        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_2.png",
+        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_3.png",
+        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-",
+      "slug": "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg",
       "slides": [
-        "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_1.png",
-        "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_2.png"
+        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_1.png",
+        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_2.png",
+        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_3.png",
+        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_4.png"
       ]
     }
   ]
