@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-07",
-  "latest": "2026-07-07",
+  "generated": "2026-07-08",
+  "latest": "2026-07-08",
   "dates": [
+    "2026-07-08",
     "2026-07-07",
     "2026-07-06",
     "2026-07-05",
@@ -300,6 +301,59 @@
         }
       ]
     },
+    "2026-07-08": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout",
+          "slides": [
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_1.png",
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_2.png",
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_3.png",
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro",
+          "slides": [
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_1.png",
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_2.png",
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_3.png",
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c",
+          "slides": [
+            "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_1.png",
+            "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a",
+          "slides": [
+            "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_1.png",
+            "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye",
+          "slides": [
+            "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_1.png",
+            "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-championnat-des-nations-moses-alo-emi",
+          "slides": [
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_1.png",
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_2.png",
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_3.png",
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-05": {
       "transferts": [],
       "actus": [
@@ -503,57 +557,55 @@
       ]
     }
   },
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-indiscipline-points-laisse",
+      "slug": "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout",
       "slides": [
-        "actu_championnat-des-nations-indiscipline-points-laisse_1.png",
-        "actu_championnat-des-nations-indiscipline-points-laisse_2.png",
-        "actu_championnat-des-nations-indiscipline-points-laisse_3.png",
-        "actu_championnat-des-nations-indiscipline-points-laisse_4.png"
+        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_1.png",
+        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_2.png",
+        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_3.png",
+        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s",
+      "slug": "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro",
       "slides": [
-        "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_1.png",
-        "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_2.png"
+        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_1.png",
+        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_2.png",
+        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_3.png",
+        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba",
+      "slug": "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c",
       "slides": [
-        "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_1.png",
-        "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_2.png"
+        "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_1.png",
+        "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c",
+      "slug": "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a",
       "slides": [
-        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_1.png",
-        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_2.png",
-        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_3.png",
-        "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_4.png"
+        "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_1.png",
+        "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0",
+      "slug": "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye",
       "slides": [
-        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_1.png",
-        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_2.png",
-        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_3.png",
-        "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_4.png"
+        "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_1.png",
+        "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg",
+      "slug": "actu_xv-de-france-championnat-des-nations-moses-alo-emi",
       "slides": [
-        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_1.png",
-        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_2.png",
-        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_3.png",
-        "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_4.png"
+        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_1.png",
+        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_2.png",
+        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_3.png",
+        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_4.png"
       ]
     }
   ]
