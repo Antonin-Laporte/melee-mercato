@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-08",
-  "latest": "2026-07-08",
+  "generated": "2026-07-09",
+  "latest": "2026-07-09",
   "dates": [
+    "2026-07-09",
     "2026-07-08",
     "2026-07-07",
     "2026-07-06",
@@ -120,6 +121,57 @@
             "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_2.png",
             "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_3.png",
             "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-09": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-la-composition-des-austral",
+          "slides": [
+            "actu_championnat-des-nations-la-composition-des-austral_1.png",
+            "actu_championnat-des-nations-la-composition-des-austral_2.png",
+            "actu_championnat-des-nations-la-composition-des-austral_3.png",
+            "actu_championnat-des-nations-la-composition-des-austral_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro",
+          "slides": [
+            "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_1.png",
+            "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be",
+          "slides": [
+            "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_1.png",
+            "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer",
+          "slides": [
+            "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_1.png",
+            "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-",
+          "slides": [
+            "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_1.png",
+            "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-la-composition-face-a-laustralie-sept",
+          "slides": [
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_1.png",
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_2.png",
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_3.png",
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_4.png"
           ]
         }
       ]
@@ -557,55 +609,53 @@
       ]
     }
   },
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout",
+      "slug": "actu_championnat-des-nations-la-composition-des-austral",
       "slides": [
-        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_1.png",
-        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_2.png",
-        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_3.png",
-        "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_4.png"
+        "actu_championnat-des-nations-la-composition-des-austral_1.png",
+        "actu_championnat-des-nations-la-composition-des-austral_2.png",
+        "actu_championnat-des-nations-la-composition-des-austral_3.png",
+        "actu_championnat-des-nations-la-composition-des-austral_4.png"
       ]
     },
     {
-      "slug": "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro",
+      "slug": "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro",
       "slides": [
-        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_1.png",
-        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_2.png",
-        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_3.png",
-        "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_4.png"
+        "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_1.png",
+        "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_2.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c",
+      "slug": "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be",
       "slides": [
-        "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_1.png",
-        "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_2.png"
+        "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_1.png",
+        "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_2.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a",
+      "slug": "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer",
       "slides": [
-        "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_1.png",
-        "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_2.png"
+        "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_1.png",
+        "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_2.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye",
+      "slug": "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-",
       "slides": [
-        "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_1.png",
-        "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_2.png"
+        "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_1.png",
+        "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-championnat-des-nations-moses-alo-emi",
+      "slug": "actu_xv-de-france-la-composition-face-a-laustralie-sept",
       "slides": [
-        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_1.png",
-        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_2.png",
-        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_3.png",
-        "actu_xv-de-france-championnat-des-nations-moses-alo-emi_4.png"
+        "actu_xv-de-france-la-composition-face-a-laustralie-sept_1.png",
+        "actu_xv-de-france-la-composition-face-a-laustralie-sept_2.png",
+        "actu_xv-de-france-la-composition-face-a-laustralie-sept_3.png",
+        "actu_xv-de-france-la-composition-face-a-laustralie-sept_4.png"
       ]
     }
   ]
