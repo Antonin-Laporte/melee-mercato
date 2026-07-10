@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-09",
-  "latest": "2026-07-09",
+  "generated": "2026-07-10",
+  "latest": "2026-07-10",
   "dates": [
+    "2026-07-10",
     "2026-07-09",
     "2026-07-08",
     "2026-07-07",
@@ -498,6 +499,63 @@
         }
       ]
     },
+    "2026-07-10": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-xv-de-france-les-trois-aus",
+          "slides": [
+            "actu_championnat-des-nations-xv-de-france-les-trois-aus_1.png",
+            "actu_championnat-des-nations-xv-de-france-les-trois-aus_2.png",
+            "actu_championnat-des-nations-xv-de-france-les-trois-aus_3.png",
+            "actu_championnat-des-nations-xv-de-france-les-trois-aus_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr",
+          "slides": [
+            "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr_1.png",
+            "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-championnat-des-nations-une-victoire-",
+          "slides": [
+            "actu_xv-de-france-championnat-des-nations-une-victoire-_1.png",
+            "actu_xv-de-france-championnat-des-nations-une-victoire-_2.png",
+            "actu_xv-de-france-championnat-des-nations-une-victoire-_3.png",
+            "actu_xv-de-france-championnat-des-nations-une-victoire-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-",
+          "slides": [
+            "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_1.png",
+            "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_2.png",
+            "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_3.png",
+            "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr",
+          "slides": [
+            "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_1.png",
+            "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_2.png",
+            "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_3.png",
+            "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-troisieme-mandat-succession-resultats",
+          "slides": [
+            "actu_xv-de-france-troisieme-mandat-succession-resultats_1.png",
+            "actu_xv-de-france-troisieme-mandat-succession-resultats_2.png",
+            "actu_xv-de-france-troisieme-mandat-succession-resultats_3.png",
+            "actu_xv-de-france-troisieme-mandat-succession-resultats_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-06": {
       "transferts": [],
       "actus": [
@@ -609,53 +667,59 @@
       ]
     }
   },
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-la-composition-des-austral",
+      "slug": "actu_championnat-des-nations-xv-de-france-les-trois-aus",
       "slides": [
-        "actu_championnat-des-nations-la-composition-des-austral_1.png",
-        "actu_championnat-des-nations-la-composition-des-austral_2.png",
-        "actu_championnat-des-nations-la-composition-des-austral_3.png",
-        "actu_championnat-des-nations-la-composition-des-austral_4.png"
+        "actu_championnat-des-nations-xv-de-france-les-trois-aus_1.png",
+        "actu_championnat-des-nations-xv-de-france-les-trois-aus_2.png",
+        "actu_championnat-des-nations-xv-de-france-les-trois-aus_3.png",
+        "actu_championnat-des-nations-xv-de-france-les-trois-aus_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro",
+      "slug": "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr",
       "slides": [
-        "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_1.png",
-        "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_2.png"
+        "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr_1.png",
+        "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr_2.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be",
+      "slug": "actu_xv-de-france-championnat-des-nations-une-victoire-",
       "slides": [
-        "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_1.png",
-        "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_2.png"
+        "actu_xv-de-france-championnat-des-nations-une-victoire-_1.png",
+        "actu_xv-de-france-championnat-des-nations-une-victoire-_2.png",
+        "actu_xv-de-france-championnat-des-nations-une-victoire-_3.png",
+        "actu_xv-de-france-championnat-des-nations-une-victoire-_4.png"
       ]
     },
     {
-      "slug": "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer",
+      "slug": "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-",
       "slides": [
-        "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_1.png",
-        "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_2.png"
+        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_1.png",
+        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_2.png",
+        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_3.png",
+        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_4.png"
       ]
     },
     {
-      "slug": "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-",
+      "slug": "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr",
       "slides": [
-        "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_1.png",
-        "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_2.png"
+        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_1.png",
+        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_2.png",
+        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_3.png",
+        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-la-composition-face-a-laustralie-sept",
+      "slug": "actu_xv-de-france-troisieme-mandat-succession-resultats",
       "slides": [
-        "actu_xv-de-france-la-composition-face-a-laustralie-sept_1.png",
-        "actu_xv-de-france-la-composition-face-a-laustralie-sept_2.png",
-        "actu_xv-de-france-la-composition-face-a-laustralie-sept_3.png",
-        "actu_xv-de-france-la-composition-face-a-laustralie-sept_4.png"
+        "actu_xv-de-france-troisieme-mandat-succession-resultats_1.png",
+        "actu_xv-de-france-troisieme-mandat-succession-resultats_2.png",
+        "actu_xv-de-france-troisieme-mandat-succession-resultats_3.png",
+        "actu_xv-de-france-troisieme-mandat-succession-resultats_4.png"
       ]
     }
   ]
