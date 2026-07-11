@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-10",
-  "latest": "2026-07-10",
+  "generated": "2026-07-11",
+  "latest": "2026-07-11",
   "dates": [
+    "2026-07-11",
     "2026-07-10",
     "2026-07-09",
     "2026-07-08",
@@ -556,6 +557,63 @@
         }
       ]
     },
+    "2026-07-11": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-champion-dangleterre-habit",
+          "slides": [
+            "actu_championnat-des-nations-champion-dangleterre-habit_1.png",
+            "actu_championnat-des-nations-champion-dangleterre-habit_2.png",
+            "actu_championnat-des-nations-champion-dangleterre-habit_3.png",
+            "actu_championnat-des-nations-champion-dangleterre-habit_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-xv-de-france-a-quelle-heur",
+          "slides": [
+            "actu_championnat-des-nations-xv-de-france-a-quelle-heur_1.png",
+            "actu_championnat-des-nations-xv-de-france-a-quelle-heur_2.png",
+            "actu_championnat-des-nations-xv-de-france-a-quelle-heur_3.png",
+            "actu_championnat-des-nations-xv-de-france-a-quelle-heur_4.png"
+          ]
+        },
+        {
+          "slug": "actu_direct-championnat-des-nations-australie-france-su",
+          "slides": [
+            "actu_direct-championnat-des-nations-australie-france-su_1.png",
+            "actu_direct-championnat-des-nations-australie-france-su_2.png",
+            "actu_direct-championnat-des-nations-australie-france-su_3.png",
+            "actu_direct-championnat-des-nations-australie-france-su_4.png"
+          ]
+        },
+        {
+          "slug": "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d",
+          "slides": [
+            "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d_1.png",
+            "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d_2.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-reorganisation-du-staff-projet-de-delocalis",
+          "slides": [
+            "actu_top-14-reorganisation-du-staff-projet-de-delocalis_1.png",
+            "actu_top-14-reorganisation-du-staff-projet-de-delocalis_2.png",
+            "actu_top-14-reorganisation-du-staff-projet-de-delocalis_3.png",
+            "actu_top-14-reorganisation-du-staff-projet-de-delocalis_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan",
+          "slides": [
+            "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_1.png",
+            "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_2.png",
+            "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_3.png",
+            "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-06": {
       "transferts": [],
       "actus": [
@@ -667,59 +725,59 @@
       ]
     }
   },
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-xv-de-france-les-trois-aus",
+      "slug": "actu_championnat-des-nations-champion-dangleterre-habit",
       "slides": [
-        "actu_championnat-des-nations-xv-de-france-les-trois-aus_1.png",
-        "actu_championnat-des-nations-xv-de-france-les-trois-aus_2.png",
-        "actu_championnat-des-nations-xv-de-france-les-trois-aus_3.png",
-        "actu_championnat-des-nations-xv-de-france-les-trois-aus_4.png"
+        "actu_championnat-des-nations-champion-dangleterre-habit_1.png",
+        "actu_championnat-des-nations-champion-dangleterre-habit_2.png",
+        "actu_championnat-des-nations-champion-dangleterre-habit_3.png",
+        "actu_championnat-des-nations-champion-dangleterre-habit_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr",
+      "slug": "actu_championnat-des-nations-xv-de-france-a-quelle-heur",
       "slides": [
-        "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr_1.png",
-        "actu_transfert-rugby-nolan-promeneur-castres-rejoint-gr_2.png"
+        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_1.png",
+        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_2.png",
+        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_3.png",
+        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-championnat-des-nations-une-victoire-",
+      "slug": "actu_direct-championnat-des-nations-australie-france-su",
       "slides": [
-        "actu_xv-de-france-championnat-des-nations-une-victoire-_1.png",
-        "actu_xv-de-france-championnat-des-nations-une-victoire-_2.png",
-        "actu_xv-de-france-championnat-des-nations-une-victoire-_3.png",
-        "actu_xv-de-france-championnat-des-nations-une-victoire-_4.png"
+        "actu_direct-championnat-des-nations-australie-france-su_1.png",
+        "actu_direct-championnat-des-nations-australie-france-su_2.png",
+        "actu_direct-championnat-des-nations-australie-france-su_3.png",
+        "actu_direct-championnat-des-nations-australie-france-su_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-",
+      "slug": "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d",
       "slides": [
-        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_1.png",
-        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_2.png",
-        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_3.png",
-        "actu_xv-de-france-quot-jinsiste-ce-nest-pas-lequipe-de-_4.png"
+        "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d_1.png",
+        "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr",
+      "slug": "actu_top-14-reorganisation-du-staff-projet-de-delocalis",
       "slides": [
-        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_1.png",
-        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_2.png",
-        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_3.png",
-        "actu_xv-de-france-quot-quand-tu-vois-la-concurrence-arr_4.png"
+        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_1.png",
+        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_2.png",
+        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_3.png",
+        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-troisieme-mandat-succession-resultats",
+      "slug": "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan",
       "slides": [
-        "actu_xv-de-france-troisieme-mandat-succession-resultats_1.png",
-        "actu_xv-de-france-troisieme-mandat-succession-resultats_2.png",
-        "actu_xv-de-france-troisieme-mandat-succession-resultats_3.png",
-        "actu_xv-de-france-troisieme-mandat-succession-resultats_4.png"
+        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_1.png",
+        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_2.png",
+        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_3.png",
+        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_4.png"
       ]
     }
   ]
