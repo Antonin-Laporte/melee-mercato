@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-11",
-  "latest": "2026-07-11",
+  "generated": "2026-07-12",
+  "latest": "2026-07-12",
   "dates": [
+    "2026-07-12",
     "2026-07-11",
     "2026-07-10",
     "2026-07-09",
@@ -467,6 +468,65 @@
         }
       ]
     },
+    "2026-07-12": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_australie-france-le-fait-du-match-le-coaching-de-f",
+          "slides": [
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_1.png",
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_2.png",
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_3.png",
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_4.png"
+          ]
+        },
+        {
+          "slug": "actu_australie-france-quot-on-a-fait-passer-ce-message-",
+          "slides": [
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_1.png",
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_2.png",
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_3.png",
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_australie-france-quot-on-nest-pas-venus-pour-faire",
+          "slides": [
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_1.png",
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_2.png",
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_3.png",
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-australie-france-revivez-l",
+          "slides": [
+            "actu_championnat-des-nations-australie-france-revivez-l_1.png",
+            "actu_championnat-des-nations-australie-france-revivez-l_2.png",
+            "actu_championnat-des-nations-australie-france-revivez-l_3.png",
+            "actu_championnat-des-nations-australie-france-revivez-l_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-en-s-039-imposant-de-16-po",
+          "slides": [
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_1.png",
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_2.png",
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_3.png",
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_4.png"
+          ]
+        },
+        {
+          "slug": "actu_video-australie-france-les-bleus-en-demonstration-",
+          "slides": [
+            "actu_video-australie-france-les-bleus-en-demonstration-_1.png",
+            "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
+            "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
+            "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-01": {
       "transferts": [],
       "actus": [
@@ -725,59 +785,61 @@
       ]
     }
   },
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-champion-dangleterre-habit",
+      "slug": "actu_australie-france-le-fait-du-match-le-coaching-de-f",
       "slides": [
-        "actu_championnat-des-nations-champion-dangleterre-habit_1.png",
-        "actu_championnat-des-nations-champion-dangleterre-habit_2.png",
-        "actu_championnat-des-nations-champion-dangleterre-habit_3.png",
-        "actu_championnat-des-nations-champion-dangleterre-habit_4.png"
+        "actu_australie-france-le-fait-du-match-le-coaching-de-f_1.png",
+        "actu_australie-france-le-fait-du-match-le-coaching-de-f_2.png",
+        "actu_australie-france-le-fait-du-match-le-coaching-de-f_3.png",
+        "actu_australie-france-le-fait-du-match-le-coaching-de-f_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-xv-de-france-a-quelle-heur",
+      "slug": "actu_australie-france-quot-on-a-fait-passer-ce-message-",
       "slides": [
-        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_1.png",
-        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_2.png",
-        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_3.png",
-        "actu_championnat-des-nations-xv-de-france-a-quelle-heur_4.png"
+        "actu_australie-france-quot-on-a-fait-passer-ce-message-_1.png",
+        "actu_australie-france-quot-on-a-fait-passer-ce-message-_2.png",
+        "actu_australie-france-quot-on-a-fait-passer-ce-message-_3.png",
+        "actu_australie-france-quot-on-a-fait-passer-ce-message-_4.png"
       ]
     },
     {
-      "slug": "actu_direct-championnat-des-nations-australie-france-su",
+      "slug": "actu_australie-france-quot-on-nest-pas-venus-pour-faire",
       "slides": [
-        "actu_direct-championnat-des-nations-australie-france-su_1.png",
-        "actu_direct-championnat-des-nations-australie-france-su_2.png",
-        "actu_direct-championnat-des-nations-australie-france-su_3.png",
-        "actu_direct-championnat-des-nations-australie-france-su_4.png"
+        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_1.png",
+        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_2.png",
+        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_3.png",
+        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_4.png"
       ]
     },
     {
-      "slug": "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d",
+      "slug": "actu_championnat-des-nations-australie-france-revivez-l",
       "slides": [
-        "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d_1.png",
-        "actu_il-travaillait-sur-des-chantiers-et-etait-proche-d_2.png"
+        "actu_championnat-des-nations-australie-france-revivez-l_1.png",
+        "actu_championnat-des-nations-australie-france-revivez-l_2.png",
+        "actu_championnat-des-nations-australie-france-revivez-l_3.png",
+        "actu_championnat-des-nations-australie-france-revivez-l_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-reorganisation-du-staff-projet-de-delocalis",
+      "slug": "actu_championnat-des-nations-en-s-039-imposant-de-16-po",
       "slides": [
-        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_1.png",
-        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_2.png",
-        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_3.png",
-        "actu_top-14-reorganisation-du-staff-projet-de-delocalis_4.png"
+        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_1.png",
+        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_2.png",
+        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_3.png",
+        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan",
+      "slug": "actu_video-australie-france-les-bleus-en-demonstration-",
       "slides": [
-        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_1.png",
-        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_2.png",
-        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_3.png",
-        "actu_xv-de-france-une-premiere-selection-a-xv-apres-tan_4.png"
+        "actu_video-australie-france-les-bleus-en-demonstration-_1.png",
+        "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
+        "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
+        "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
       ]
     }
   ]
