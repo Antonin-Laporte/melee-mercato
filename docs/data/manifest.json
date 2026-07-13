@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-12",
-  "latest": "2026-07-12",
+  "generated": "2026-07-13",
+  "latest": "2026-07-13",
   "dates": [
+    "2026-07-13",
     "2026-07-12",
     "2026-07-11",
     "2026-07-10",
@@ -67,6 +68,61 @@
             "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_2.png",
             "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_3.png",
             "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-13": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-les-bleus-en-deux-temps-l-",
+          "slides": [
+            "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_1.png",
+            "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_2.png",
+            "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_3.png",
+            "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-recuperation-seance-en-quo",
+          "slides": [
+            "actu_championnat-des-nations-recuperation-seance-en-quo_1.png",
+            "actu_championnat-des-nations-recuperation-seance-en-quo_2.png",
+            "actu_championnat-des-nations-recuperation-seance-en-quo_3.png",
+            "actu_championnat-des-nations-recuperation-seance-en-quo_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-seulement-1-48-million-de-",
+          "slides": [
+            "actu_championnat-des-nations-seulement-1-48-million-de-_1.png",
+            "actu_championnat-des-nations-seulement-1-48-million-de-_2.png",
+            "actu_championnat-des-nations-seulement-1-48-million-de-_3.png",
+            "actu_championnat-des-nations-seulement-1-48-million-de-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-",
+          "slides": [
+            "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-_1.png",
+            "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge",
+          "slides": [
+            "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge_1.png",
+            "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi",
+          "slides": [
+            "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_1.png",
+            "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_2.png",
+            "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_3.png",
+            "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_4.png"
           ]
         }
       ]
@@ -785,61 +841,57 @@
       ]
     }
   },
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_australie-france-le-fait-du-match-le-coaching-de-f",
+      "slug": "actu_championnat-des-nations-les-bleus-en-deux-temps-l-",
       "slides": [
-        "actu_australie-france-le-fait-du-match-le-coaching-de-f_1.png",
-        "actu_australie-france-le-fait-du-match-le-coaching-de-f_2.png",
-        "actu_australie-france-le-fait-du-match-le-coaching-de-f_3.png",
-        "actu_australie-france-le-fait-du-match-le-coaching-de-f_4.png"
+        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_1.png",
+        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_2.png",
+        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_3.png",
+        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_4.png"
       ]
     },
     {
-      "slug": "actu_australie-france-quot-on-a-fait-passer-ce-message-",
+      "slug": "actu_championnat-des-nations-recuperation-seance-en-quo",
       "slides": [
-        "actu_australie-france-quot-on-a-fait-passer-ce-message-_1.png",
-        "actu_australie-france-quot-on-a-fait-passer-ce-message-_2.png",
-        "actu_australie-france-quot-on-a-fait-passer-ce-message-_3.png",
-        "actu_australie-france-quot-on-a-fait-passer-ce-message-_4.png"
+        "actu_championnat-des-nations-recuperation-seance-en-quo_1.png",
+        "actu_championnat-des-nations-recuperation-seance-en-quo_2.png",
+        "actu_championnat-des-nations-recuperation-seance-en-quo_3.png",
+        "actu_championnat-des-nations-recuperation-seance-en-quo_4.png"
       ]
     },
     {
-      "slug": "actu_australie-france-quot-on-nest-pas-venus-pour-faire",
+      "slug": "actu_championnat-des-nations-seulement-1-48-million-de-",
       "slides": [
-        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_1.png",
-        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_2.png",
-        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_3.png",
-        "actu_australie-france-quot-on-nest-pas-venus-pour-faire_4.png"
+        "actu_championnat-des-nations-seulement-1-48-million-de-_1.png",
+        "actu_championnat-des-nations-seulement-1-48-million-de-_2.png",
+        "actu_championnat-des-nations-seulement-1-48-million-de-_3.png",
+        "actu_championnat-des-nations-seulement-1-48-million-de-_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-australie-france-revivez-l",
+      "slug": "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-",
       "slides": [
-        "actu_championnat-des-nations-australie-france-revivez-l_1.png",
-        "actu_championnat-des-nations-australie-france-revivez-l_2.png",
-        "actu_championnat-des-nations-australie-france-revivez-l_3.png",
-        "actu_championnat-des-nations-australie-france-revivez-l_4.png"
+        "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-_1.png",
+        "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-_2.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-en-s-039-imposant-de-16-po",
+      "slug": "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge",
       "slides": [
-        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_1.png",
-        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_2.png",
-        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_3.png",
-        "actu_championnat-des-nations-en-s-039-imposant-de-16-po_4.png"
+        "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge_1.png",
+        "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge_2.png"
       ]
     },
     {
-      "slug": "actu_video-australie-france-les-bleus-en-demonstration-",
+      "slug": "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi",
       "slides": [
-        "actu_video-australie-france-les-bleus-en-demonstration-_1.png",
-        "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
-        "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
-        "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
+        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_1.png",
+        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_2.png",
+        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_3.png",
+        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_4.png"
       ]
     }
   ]
