@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-13",
-  "latest": "2026-07-13",
+  "generated": "2026-07-14",
+  "latest": "2026-07-14",
   "dates": [
+    "2026-07-14",
     "2026-07-13",
     "2026-07-12",
     "2026-07-11",
@@ -180,6 +181,59 @@
             "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_2.png",
             "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_3.png",
             "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-14": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red",
+          "slides": [
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_1.png",
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_2.png",
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_3.png",
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c",
+          "slides": [
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_1.png",
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_2.png",
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_3.png",
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin",
+          "slides": [
+            "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_1.png",
+            "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-fernand-auvray-quitte-clermont",
+          "slides": [
+            "actu_transfert-rugby-fernand-auvray-quitte-clermont_1.png",
+            "actu_transfert-rugby-fernand-auvray-quitte-clermont_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-gervais-giordano-quitte-clermont",
+          "slides": [
+            "actu_transfert-rugby-gervais-giordano-quitte-clermont_1.png",
+            "actu_transfert-rugby-gervais-giordano-quitte-clermont_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo",
+          "slides": [
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_1.png",
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_2.png",
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_3.png",
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_4.png"
           ]
         }
       ]
@@ -841,57 +895,55 @@
       ]
     }
   },
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-les-bleus-en-deux-temps-l-",
+      "slug": "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red",
       "slides": [
-        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_1.png",
-        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_2.png",
-        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_3.png",
-        "actu_championnat-des-nations-les-bleus-en-deux-temps-l-_4.png"
+        "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_1.png",
+        "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_2.png",
+        "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_3.png",
+        "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-recuperation-seance-en-quo",
+      "slug": "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c",
       "slides": [
-        "actu_championnat-des-nations-recuperation-seance-en-quo_1.png",
-        "actu_championnat-des-nations-recuperation-seance-en-quo_2.png",
-        "actu_championnat-des-nations-recuperation-seance-en-quo_3.png",
-        "actu_championnat-des-nations-recuperation-seance-en-quo_4.png"
+        "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_1.png",
+        "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_2.png",
+        "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_3.png",
+        "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-seulement-1-48-million-de-",
+      "slug": "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin",
       "slides": [
-        "actu_championnat-des-nations-seulement-1-48-million-de-_1.png",
-        "actu_championnat-des-nations-seulement-1-48-million-de-_2.png",
-        "actu_championnat-des-nations-seulement-1-48-million-de-_3.png",
-        "actu_championnat-des-nations-seulement-1-48-million-de-_4.png"
+        "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_1.png",
+        "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_2.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-",
+      "slug": "actu_transfert-rugby-fernand-auvray-quitte-clermont",
       "slides": [
-        "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-_1.png",
-        "actu_transfert-rugby-charlesty-berguet-vannes-prolonge-_2.png"
+        "actu_transfert-rugby-fernand-auvray-quitte-clermont_1.png",
+        "actu_transfert-rugby-fernand-auvray-quitte-clermont_2.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge",
+      "slug": "actu_transfert-rugby-gervais-giordano-quitte-clermont",
       "slides": [
-        "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge_1.png",
-        "actu_transfert-rugby-giorgi-gergedava-clermont-prolonge_2.png"
+        "actu_transfert-rugby-gervais-giordano-quitte-clermont_1.png",
+        "actu_transfert-rugby-gervais-giordano-quitte-clermont_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi",
+      "slug": "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo",
       "slides": [
-        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_1.png",
-        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_2.png",
-        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_3.png",
-        "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_4.png"
+        "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_1.png",
+        "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_2.png",
+        "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_3.png",
+        "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_4.png"
       ]
     }
   ]
