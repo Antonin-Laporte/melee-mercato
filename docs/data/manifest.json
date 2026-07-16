@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-15",
-  "latest": "2026-07-15",
+  "generated": "2026-07-16",
+  "latest": "2026-07-16",
   "dates": [
+    "2026-07-16",
     "2026-07-15",
     "2026-07-14",
     "2026-07-13",
@@ -949,59 +950,122 @@
           ]
         }
       ]
+    },
+    "2026-07-16": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-matthieu-jalibert-apte-osc",
+          "slides": [
+            "actu_championnat-des-nations-matthieu-jalibert-apte-osc_1.png",
+            "actu_championnat-des-nations-matthieu-jalibert-apte-osc_2.png",
+            "actu_championnat-des-nations-matthieu-jalibert-apte-osc_3.png",
+            "actu_championnat-des-nations-matthieu-jalibert-apte-osc_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-naoto-saito-present-un-dem",
+          "slides": [
+            "actu_championnat-des-nations-naoto-saito-present-un-dem_1.png",
+            "actu_championnat-des-nations-naoto-saito-present-un-dem_2.png",
+            "actu_championnat-des-nations-naoto-saito-present-un-dem_3.png",
+            "actu_championnat-des-nations-naoto-saito-present-un-dem_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-quot-lirlande-est-toute-pu",
+          "slides": [
+            "actu_championnat-des-nations-quot-lirlande-est-toute-pu_1.png",
+            "actu_championnat-des-nations-quot-lirlande-est-toute-pu_2.png",
+            "actu_championnat-des-nations-quot-lirlande-est-toute-pu_3.png",
+            "actu_championnat-des-nations-quot-lirlande-est-toute-pu_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-la-composition-des-bleus-face-au-japo",
+          "slides": [
+            "actu_xv-de-france-la-composition-des-bleus-face-au-japo_1.png",
+            "actu_xv-de-france-la-composition-des-bleus-face-au-japo_2.png",
+            "actu_xv-de-france-la-composition-des-bleus-face-au-japo_3.png",
+            "actu_xv-de-france-la-composition-des-bleus-face-au-japo_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees",
+          "slides": [
+            "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_1.png",
+            "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_2.png",
+            "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_3.png",
+            "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n",
+          "slides": [
+            "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_1.png",
+            "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_2.png",
+            "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_3.png",
+            "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_4.png"
+          ]
+        }
+      ]
     }
   },
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu",
+      "slug": "actu_championnat-des-nations-matthieu-jalibert-apte-osc",
       "slides": [
-        "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_1.png",
-        "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_2.png",
-        "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_3.png",
-        "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_4.png"
+        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_1.png",
+        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_2.png",
+        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_3.png",
+        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_4.png"
       ]
     },
     {
-      "slug": "actu_pro-d2-deux-internationaux-francais-avec-marco-tau",
+      "slug": "actu_championnat-des-nations-naoto-saito-present-un-dem",
       "slides": [
-        "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_1.png",
-        "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_2.png",
-        "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_3.png",
-        "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_4.png"
+        "actu_championnat-des-nations-naoto-saito-present-un-dem_1.png",
+        "actu_championnat-des-nations-naoto-saito-present-un-dem_2.png",
+        "actu_championnat-des-nations-naoto-saito-present-un-dem_3.png",
+        "actu_championnat-des-nations-naoto-saito-present-un-dem_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot",
+      "slug": "actu_championnat-des-nations-quot-lirlande-est-toute-pu",
       "slides": [
-        "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_1.png",
-        "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_2.png",
-        "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_3.png",
-        "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_4.png"
+        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_1.png",
+        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_2.png",
+        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_3.png",
+        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-",
+      "slug": "actu_xv-de-france-la-composition-des-bleus-face-au-japo",
       "slides": [
-        "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-_1.png",
-        "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-_2.png"
+        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_1.png",
+        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_2.png",
+        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_3.png",
+        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-terrible-nouvelle-pour-le-castres-olympique",
+      "slug": "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees",
       "slides": [
-        "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_1.png",
-        "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_2.png",
-        "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_3.png",
-        "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_4.png"
+        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_1.png",
+        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_2.png",
+        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_3.png",
+        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece",
+      "slug": "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n",
       "slides": [
-        "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece_1.png",
-        "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece_2.png"
+        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_1.png",
+        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_2.png",
+        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_3.png",
+        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_4.png"
       ]
     }
   ]
