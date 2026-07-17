@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-16",
-  "latest": "2026-07-16",
+  "generated": "2026-07-17",
+  "latest": "2026-07-17",
   "dates": [
+    "2026-07-17",
     "2026-07-16",
     "2026-07-15",
     "2026-07-14",
@@ -20,61 +21,6 @@
     "2026-07-01"
   ],
   "days": {
-    "2026-07-04": {
-      "transferts": [],
-      "actus": [
-        {
-          "slug": "actu_championnat-des-nations-a-quelle-heure-et-sur-quel",
-          "slides": [
-            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_1.png",
-            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_2.png",
-            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_3.png",
-            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_4.png"
-          ]
-        },
-        {
-          "slug": "actu_championnat-des-nations-nouvelle-zelande-france-re",
-          "slides": [
-            "actu_championnat-des-nations-nouvelle-zelande-france-re_1.png",
-            "actu_championnat-des-nations-nouvelle-zelande-france-re_2.png",
-            "actu_championnat-des-nations-nouvelle-zelande-france-re_3.png",
-            "actu_championnat-des-nations-nouvelle-zelande-france-re_4.png"
-          ]
-        },
-        {
-          "slug": "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les",
-          "slides": [
-            "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_1.png",
-            "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_2.png"
-          ]
-        },
-        {
-          "slug": "actu_la-rochelle-george-moala-renforce-un-recrutement-d",
-          "slides": [
-            "actu_la-rochelle-george-moala-renforce-un-recrutement-d_1.png",
-            "actu_la-rochelle-george-moala-renforce-un-recrutement-d_2.png"
-          ]
-        },
-        {
-          "slug": "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa",
-          "slides": [
-            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_1.png",
-            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_2.png",
-            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_3.png",
-            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_4.png"
-          ]
-        },
-        {
-          "slug": "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi",
-          "slides": [
-            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_1.png",
-            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_2.png",
-            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_3.png",
-            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_4.png"
-          ]
-        }
-      ]
-    },
     "2026-07-13": {
       "transferts": [],
       "actus": [
@@ -130,163 +76,57 @@
         }
       ]
     },
-    "2026-07-03": {
+    "2026-07-04": {
       "transferts": [],
       "actus": [
         {
-          "slug": "actu_championnat-des-nations-will-jordan-nouvelle-zelan",
+          "slug": "actu_championnat-des-nations-a-quelle-heure-et-sur-quel",
           "slides": [
-            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_1.png",
-            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_2.png",
-            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_3.png",
-            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_4.png"
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_1.png",
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_2.png",
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_3.png",
+            "actu_championnat-des-nations-a-quelle-heure-et-sur-quel_4.png"
           ]
         },
         {
-          "slug": "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro",
+          "slug": "actu_championnat-des-nations-nouvelle-zelande-france-re",
           "slides": [
-            "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro_1.png",
-            "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro_2.png"
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_1.png",
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_2.png",
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_3.png",
+            "actu_championnat-des-nations-nouvelle-zelande-france-re_4.png"
           ]
         },
         {
-          "slug": "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr",
+          "slug": "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les",
           "slides": [
-            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_1.png",
-            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_2.png",
-            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_3.png",
-            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_4.png"
+            "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_1.png",
+            "actu_la-quete-du-rugby-bouclier-de-brennus-justifie-les_2.png"
           ]
         },
         {
-          "slug": "actu_xv-de-france-championnat-des-nations-quot-nous-aim",
+          "slug": "actu_la-rochelle-george-moala-renforce-un-recrutement-d",
           "slides": [
-            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_1.png",
-            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_2.png",
-            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_3.png",
-            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_4.png"
+            "actu_la-rochelle-george-moala-renforce-un-recrutement-d_1.png",
+            "actu_la-rochelle-george-moala-renforce-un-recrutement-d_2.png"
           ]
         },
         {
-          "slug": "actu_xv-de-france-championnat-des-nations-quot-quels-qu",
+          "slug": "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa",
           "slides": [
-            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_1.png",
-            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_2.png",
-            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_3.png",
-            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_4.png"
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_1.png",
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_2.png",
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_3.png",
+            "actu_nouvelle-zelande-france-alerte-a-un-mollet-pour-pa_4.png"
           ]
         },
         {
-          "slug": "actu_xv-de-france-championnat-des-nations-quot-si-on-fa",
+          "slug": "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi",
           "slides": [
-            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_1.png",
-            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_2.png",
-            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_3.png",
-            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_4.png"
-          ]
-        }
-      ]
-    },
-    "2026-07-14": {
-      "transferts": [],
-      "actus": [
-        {
-          "slug": "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red",
-          "slides": [
-            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_1.png",
-            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_2.png",
-            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_3.png",
-            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_4.png"
-          ]
-        },
-        {
-          "slug": "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c",
-          "slides": [
-            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_1.png",
-            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_2.png",
-            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_3.png",
-            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_4.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin",
-          "slides": [
-            "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_1.png",
-            "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-fernand-auvray-quitte-clermont",
-          "slides": [
-            "actu_transfert-rugby-fernand-auvray-quitte-clermont_1.png",
-            "actu_transfert-rugby-fernand-auvray-quitte-clermont_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-gervais-giordano-quitte-clermont",
-          "slides": [
-            "actu_transfert-rugby-gervais-giordano-quitte-clermont_1.png",
-            "actu_transfert-rugby-gervais-giordano-quitte-clermont_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo",
-          "slides": [
-            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_1.png",
-            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_2.png",
-            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_3.png",
-            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_4.png"
-          ]
-        }
-      ]
-    },
-    "2026-07-09": {
-      "transferts": [],
-      "actus": [
-        {
-          "slug": "actu_championnat-des-nations-la-composition-des-austral",
-          "slides": [
-            "actu_championnat-des-nations-la-composition-des-austral_1.png",
-            "actu_championnat-des-nations-la-composition-des-austral_2.png",
-            "actu_championnat-des-nations-la-composition-des-austral_3.png",
-            "actu_championnat-des-nations-la-composition-des-austral_4.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro",
-          "slides": [
-            "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_1.png",
-            "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be",
-          "slides": [
-            "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_1.png",
-            "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer",
-          "slides": [
-            "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_1.png",
-            "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-",
-          "slides": [
-            "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_1.png",
-            "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_2.png"
-          ]
-        },
-        {
-          "slug": "actu_xv-de-france-la-composition-face-a-laustralie-sept",
-          "slides": [
-            "actu_xv-de-france-la-composition-face-a-laustralie-sept_1.png",
-            "actu_xv-de-france-la-composition-face-a-laustralie-sept_2.png",
-            "actu_xv-de-france-la-composition-face-a-laustralie-sept_3.png",
-            "actu_xv-de-france-la-composition-face-a-laustralie-sept_4.png"
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_1.png",
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_2.png",
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_3.png",
+            "actu_pro-d2-le-capitaine-du-rc-lens-florian-sotoca-devi_4.png"
           ]
         }
       ]
@@ -468,55 +308,112 @@
         }
       ]
     },
-    "2026-07-08": {
+    "2026-07-12": {
       "transferts": [],
       "actus": [
         {
-          "slug": "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout",
+          "slug": "actu_australie-france-le-fait-du-match-le-coaching-de-f",
           "slides": [
-            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_1.png",
-            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_2.png",
-            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_3.png",
-            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_4.png"
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_1.png",
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_2.png",
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_3.png",
+            "actu_australie-france-le-fait-du-match-le-coaching-de-f_4.png"
           ]
         },
         {
-          "slug": "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro",
+          "slug": "actu_australie-france-quot-on-a-fait-passer-ce-message-",
           "slides": [
-            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_1.png",
-            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_2.png",
-            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_3.png",
-            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_4.png"
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_1.png",
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_2.png",
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_3.png",
+            "actu_australie-france-quot-on-a-fait-passer-ce-message-_4.png"
           ]
         },
         {
-          "slug": "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c",
+          "slug": "actu_australie-france-quot-on-nest-pas-venus-pour-faire",
           "slides": [
-            "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_1.png",
-            "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_2.png"
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_1.png",
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_2.png",
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_3.png",
+            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_4.png"
           ]
         },
         {
-          "slug": "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a",
+          "slug": "actu_championnat-des-nations-australie-france-revivez-l",
           "slides": [
-            "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_1.png",
-            "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_2.png"
+            "actu_championnat-des-nations-australie-france-revivez-l_1.png",
+            "actu_championnat-des-nations-australie-france-revivez-l_2.png",
+            "actu_championnat-des-nations-australie-france-revivez-l_3.png",
+            "actu_championnat-des-nations-australie-france-revivez-l_4.png"
           ]
         },
         {
-          "slug": "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye",
+          "slug": "actu_championnat-des-nations-en-s-039-imposant-de-16-po",
           "slides": [
-            "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_1.png",
-            "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_2.png"
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_1.png",
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_2.png",
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_3.png",
+            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_4.png"
           ]
         },
         {
-          "slug": "actu_xv-de-france-championnat-des-nations-moses-alo-emi",
+          "slug": "actu_video-australie-france-les-bleus-en-demonstration-",
           "slides": [
-            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_1.png",
-            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_2.png",
-            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_3.png",
-            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_4.png"
+            "actu_video-australie-france-les-bleus-en-demonstration-_1.png",
+            "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
+            "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
+            "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-09": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-la-composition-des-austral",
+          "slides": [
+            "actu_championnat-des-nations-la-composition-des-austral_1.png",
+            "actu_championnat-des-nations-la-composition-des-austral_2.png",
+            "actu_championnat-des-nations-la-composition-des-austral_3.png",
+            "actu_championnat-des-nations-la-composition-des-austral_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro",
+          "slides": [
+            "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_1.png",
+            "actu_transfert-rugby-benjamin-urdapilleta-perpignan-pro_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be",
+          "slides": [
+            "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_1.png",
+            "actu_transfert-rugby-kylian-bert-peyrehorade-rejoint-be_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer",
+          "slides": [
+            "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_1.png",
+            "actu_transferts-top-14-gabin-villiere-a-prolonge-ce-mer_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-",
+          "slides": [
+            "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_1.png",
+            "actu_transferts-top-14-une-nouvelle-fausse-retraite-et-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-la-composition-face-a-laustralie-sept",
+          "slides": [
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_1.png",
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_2.png",
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_3.png",
+            "actu_xv-de-france-la-composition-face-a-laustralie-sept_4.png"
           ]
         }
       ]
@@ -580,65 +477,6 @@
         }
       ]
     },
-    "2026-07-12": {
-      "transferts": [],
-      "actus": [
-        {
-          "slug": "actu_australie-france-le-fait-du-match-le-coaching-de-f",
-          "slides": [
-            "actu_australie-france-le-fait-du-match-le-coaching-de-f_1.png",
-            "actu_australie-france-le-fait-du-match-le-coaching-de-f_2.png",
-            "actu_australie-france-le-fait-du-match-le-coaching-de-f_3.png",
-            "actu_australie-france-le-fait-du-match-le-coaching-de-f_4.png"
-          ]
-        },
-        {
-          "slug": "actu_australie-france-quot-on-a-fait-passer-ce-message-",
-          "slides": [
-            "actu_australie-france-quot-on-a-fait-passer-ce-message-_1.png",
-            "actu_australie-france-quot-on-a-fait-passer-ce-message-_2.png",
-            "actu_australie-france-quot-on-a-fait-passer-ce-message-_3.png",
-            "actu_australie-france-quot-on-a-fait-passer-ce-message-_4.png"
-          ]
-        },
-        {
-          "slug": "actu_australie-france-quot-on-nest-pas-venus-pour-faire",
-          "slides": [
-            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_1.png",
-            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_2.png",
-            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_3.png",
-            "actu_australie-france-quot-on-nest-pas-venus-pour-faire_4.png"
-          ]
-        },
-        {
-          "slug": "actu_championnat-des-nations-australie-france-revivez-l",
-          "slides": [
-            "actu_championnat-des-nations-australie-france-revivez-l_1.png",
-            "actu_championnat-des-nations-australie-france-revivez-l_2.png",
-            "actu_championnat-des-nations-australie-france-revivez-l_3.png",
-            "actu_championnat-des-nations-australie-france-revivez-l_4.png"
-          ]
-        },
-        {
-          "slug": "actu_championnat-des-nations-en-s-039-imposant-de-16-po",
-          "slides": [
-            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_1.png",
-            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_2.png",
-            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_3.png",
-            "actu_championnat-des-nations-en-s-039-imposant-de-16-po_4.png"
-          ]
-        },
-        {
-          "slug": "actu_video-australie-france-les-bleus-en-demonstration-",
-          "slides": [
-            "actu_video-australie-france-les-bleus-en-demonstration-_1.png",
-            "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
-            "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
-            "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
-          ]
-        }
-      ]
-    },
     "2026-07-01": {
       "transferts": [],
       "actus": [
@@ -672,57 +510,110 @@
         }
       ]
     },
-    "2026-07-15": {
+    "2026-07-07": {
       "transferts": [],
       "actus": [
         {
-          "slug": "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu",
+          "slug": "actu_championnat-des-nations-indiscipline-points-laisse",
           "slides": [
-            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_1.png",
-            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_2.png",
-            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_3.png",
-            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_4.png"
+            "actu_championnat-des-nations-indiscipline-points-laisse_1.png",
+            "actu_championnat-des-nations-indiscipline-points-laisse_2.png",
+            "actu_championnat-des-nations-indiscipline-points-laisse_3.png",
+            "actu_championnat-des-nations-indiscipline-points-laisse_4.png"
           ]
         },
         {
-          "slug": "actu_pro-d2-deux-internationaux-francais-avec-marco-tau",
+          "slug": "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s",
           "slides": [
-            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_1.png",
-            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_2.png",
-            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_3.png",
-            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_4.png"
+            "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_1.png",
+            "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_2.png"
           ]
         },
         {
-          "slug": "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot",
+          "slug": "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba",
           "slides": [
-            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_1.png",
-            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_2.png",
-            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_3.png",
-            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_4.png"
+            "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_1.png",
+            "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_2.png"
           ]
         },
         {
-          "slug": "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-",
+          "slug": "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c",
           "slides": [
-            "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-_1.png",
-            "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-_2.png"
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_1.png",
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_2.png",
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_3.png",
+            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_4.png"
           ]
         },
         {
-          "slug": "actu_top-14-terrible-nouvelle-pour-le-castres-olympique",
+          "slug": "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0",
           "slides": [
-            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_1.png",
-            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_2.png",
-            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_3.png",
-            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_4.png"
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_1.png",
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_2.png",
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_3.png",
+            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_4.png"
           ]
         },
         {
-          "slug": "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece",
+          "slug": "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg",
           "slides": [
-            "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece_1.png",
-            "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece_2.png"
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_1.png",
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_2.png",
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_3.png",
+            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-14": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red",
+          "slides": [
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_1.png",
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_2.png",
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_3.png",
+            "actu_pro-d2-stabilite-retour-de-blessures-a-agen-un-red_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c",
+          "slides": [
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_1.png",
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_2.png",
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_3.png",
+            "actu_top-14-quot-trouver-lequilibre-entre-le-rugby-et-c_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin",
+          "slides": [
+            "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_1.png",
+            "actu_transfert-rugby-amine-boulaghrifa-montauban-rejoin_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-fernand-auvray-quitte-clermont",
+          "slides": [
+            "actu_transfert-rugby-fernand-auvray-quitte-clermont_1.png",
+            "actu_transfert-rugby-fernand-auvray-quitte-clermont_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-gervais-giordano-quitte-clermont",
+          "slides": [
+            "actu_transfert-rugby-gervais-giordano-quitte-clermont_1.png",
+            "actu_transfert-rugby-gervais-giordano-quitte-clermont_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo",
+          "slides": [
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_1.png",
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_2.png",
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_3.png",
+            "actu_transferts-top-14-carlu-sadie-prolonge-a-lunion-bo_4.png"
           ]
         }
       ]
@@ -841,6 +732,61 @@
         }
       ]
     },
+    "2026-07-15": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu",
+          "slides": [
+            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_1.png",
+            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_2.png",
+            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_3.png",
+            "actu_championnat-des-nations-une-pepite-a-l-039-ouvertu_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-deux-internationaux-francais-avec-marco-tau",
+          "slides": [
+            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_1.png",
+            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_2.png",
+            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_3.png",
+            "actu_pro-d2-deux-internationaux-francais-avec-marco-tau_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot",
+          "slides": [
+            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_1.png",
+            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_2.png",
+            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_3.png",
+            "actu_top-14-les-pepites-de-pro-d2-dans-l-039-elite-quot_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-",
+          "slides": [
+            "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-_1.png",
+            "actu_top-14-les-pepites-de-pro-d2-dans-l-elite-il-sait-_2.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-terrible-nouvelle-pour-le-castres-olympique",
+          "slides": [
+            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_1.png",
+            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_2.png",
+            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_3.png",
+            "actu_top-14-terrible-nouvelle-pour-le-castres-olympique_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece",
+          "slides": [
+            "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece_1.png",
+            "actu_top-14-tommaso-menoncello-rabah-slimani-sevu-reece_2.png"
+          ]
+        }
+      ]
+    },
     "2026-07-06": {
       "transferts": [],
       "actus": [
@@ -892,61 +838,6 @@
           "slides": [
             "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_1.png",
             "actu_xv-de-france-les-finalistes-du-top-14-arrivent-au-_2.png"
-          ]
-        }
-      ]
-    },
-    "2026-07-07": {
-      "transferts": [],
-      "actus": [
-        {
-          "slug": "actu_championnat-des-nations-indiscipline-points-laisse",
-          "slides": [
-            "actu_championnat-des-nations-indiscipline-points-laisse_1.png",
-            "actu_championnat-des-nations-indiscipline-points-laisse_2.png",
-            "actu_championnat-des-nations-indiscipline-points-laisse_3.png",
-            "actu_championnat-des-nations-indiscipline-points-laisse_4.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s",
-          "slides": [
-            "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_1.png",
-            "actu_transfert-rugby-jerry-suveinaika-la-suva-grammar-s_2.png"
-          ]
-        },
-        {
-          "slug": "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba",
-          "slides": [
-            "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_1.png",
-            "actu_transfert-rugby-mathys-pardies-dax-prolonge-son-ba_2.png"
-          ]
-        },
-        {
-          "slug": "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c",
-          "slides": [
-            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_1.png",
-            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_2.png",
-            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_3.png",
-            "actu_xv-de-france-la-compo-probable-des-bleus-vers-la-c_4.png"
-          ]
-        },
-        {
-          "slug": "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0",
-          "slides": [
-            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_1.png",
-            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_2.png",
-            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_3.png",
-            "actu_xv-de-france-quot-jalibert-et-ntamack-ensemble-c-0_4.png"
-          ]
-        },
-        {
-          "slug": "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg",
-          "slides": [
-            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_1.png",
-            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_2.png",
-            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_3.png",
-            "actu_xv-de-france-quot-la-cle-de-la-semaine-cest-dinteg_4.png"
           ]
         }
       ]
@@ -1009,63 +900,224 @@
           ]
         }
       ]
+    },
+    "2026-07-03": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-will-jordan-nouvelle-zelan",
+          "slides": [
+            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_1.png",
+            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_2.png",
+            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_3.png",
+            "actu_championnat-des-nations-will-jordan-nouvelle-zelan_4.png"
+          ]
+        },
+        {
+          "slug": "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro",
+          "slides": [
+            "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro_1.png",
+            "actu_le-pilier-de-perpignan-giorgi-beria-rejoint-le-pro_2.png"
+          ]
+        },
+        {
+          "slug": "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr",
+          "slides": [
+            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_1.png",
+            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_2.png",
+            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_3.png",
+            "actu_replay-le-xv-de-france-se-doit-il-de-gagner-ses-tr_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-championnat-des-nations-quot-nous-aim",
+          "slides": [
+            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_1.png",
+            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_2.png",
+            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_3.png",
+            "actu_xv-de-france-championnat-des-nations-quot-nous-aim_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-championnat-des-nations-quot-quels-qu",
+          "slides": [
+            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_1.png",
+            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_2.png",
+            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_3.png",
+            "actu_xv-de-france-championnat-des-nations-quot-quels-qu_4.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-championnat-des-nations-quot-si-on-fa",
+          "slides": [
+            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_1.png",
+            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_2.png",
+            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_3.png",
+            "actu_xv-de-france-championnat-des-nations-quot-si-on-fa_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-08": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout",
+          "slides": [
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_1.png",
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_2.png",
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_3.png",
+            "actu_pro-d2-dates-de-reprise-stages-matchs-amicaux-tout_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro",
+          "slides": [
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_1.png",
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_2.png",
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_3.png",
+            "actu_pro-d2-quot-la-confiance-a-ete-maintenue-en-ce-gro_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c",
+          "slides": [
+            "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_1.png",
+            "actu_transfert-rugby-dorian-laborde-perpignan-rejoint-c_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a",
+          "slides": [
+            "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_1.png",
+            "actu_transfert-rugby-eliott-arandiga-biarritz-rejoint-a_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye",
+          "slides": [
+            "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_1.png",
+            "actu_transfert-rugby-sacha-merrouche-toulon-rejoint-hye_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-championnat-des-nations-moses-alo-emi",
+          "slides": [
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_1.png",
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_2.png",
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_3.png",
+            "actu_xv-de-france-championnat-des-nations-moses-alo-emi_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-17": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-le-xv-de-france-et-les-ble",
+          "slides": [
+            "actu_championnat-des-nations-le-xv-de-france-et-les-ble_1.png",
+            "actu_championnat-des-nations-le-xv-de-france-et-les-ble_2.png",
+            "actu_championnat-des-nations-le-xv-de-france-et-les-ble_3.png",
+            "actu_championnat-des-nations-le-xv-de-france-et-les-ble_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-quot-contre-le-japon-le-ma",
+          "slides": [
+            "actu_championnat-des-nations-quot-contre-le-japon-le-ma_1.png",
+            "actu_championnat-des-nations-quot-contre-le-japon-le-ma_2.png",
+            "actu_championnat-des-nations-quot-contre-le-japon-le-ma_3.png",
+            "actu_championnat-des-nations-quot-contre-le-japon-le-ma_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-technique-ce-quot-4-4-quot",
+          "slides": [
+            "actu_championnat-des-nations-technique-ce-quot-4-4-quot_1.png",
+            "actu_championnat-des-nations-technique-ce-quot-4-4-quot_2.png",
+            "actu_championnat-des-nations-technique-ce-quot-4-4-quot_3.png",
+            "actu_championnat-des-nations-technique-ce-quot-4-4-quot_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite",
+          "slides": [
+            "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite_1.png",
+            "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite_2.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa",
+          "slides": [
+            "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa_1.png",
+            "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa_2.png"
+          ]
+        },
+        {
+          "slug": "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d",
+          "slides": [
+            "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_1.png",
+            "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_2.png",
+            "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_3.png",
+            "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_4.png"
+          ]
+        }
+      ]
     }
   },
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-matthieu-jalibert-apte-osc",
+      "slug": "actu_championnat-des-nations-le-xv-de-france-et-les-ble",
       "slides": [
-        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_1.png",
-        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_2.png",
-        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_3.png",
-        "actu_championnat-des-nations-matthieu-jalibert-apte-osc_4.png"
+        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_1.png",
+        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_2.png",
+        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_3.png",
+        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-naoto-saito-present-un-dem",
+      "slug": "actu_championnat-des-nations-quot-contre-le-japon-le-ma",
       "slides": [
-        "actu_championnat-des-nations-naoto-saito-present-un-dem_1.png",
-        "actu_championnat-des-nations-naoto-saito-present-un-dem_2.png",
-        "actu_championnat-des-nations-naoto-saito-present-un-dem_3.png",
-        "actu_championnat-des-nations-naoto-saito-present-un-dem_4.png"
+        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_1.png",
+        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_2.png",
+        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_3.png",
+        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-quot-lirlande-est-toute-pu",
+      "slug": "actu_championnat-des-nations-technique-ce-quot-4-4-quot",
       "slides": [
-        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_1.png",
-        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_2.png",
-        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_3.png",
-        "actu_championnat-des-nations-quot-lirlande-est-toute-pu_4.png"
+        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_1.png",
+        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_2.png",
+        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_3.png",
+        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-la-composition-des-bleus-face-au-japo",
+      "slug": "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite",
       "slides": [
-        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_1.png",
-        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_2.png",
-        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_3.png",
-        "actu_xv-de-france-la-composition-des-bleus-face-au-japo_4.png"
+        "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite_1.png",
+        "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees",
+      "slug": "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa",
       "slides": [
-        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_1.png",
-        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_2.png",
-        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_3.png",
-        "actu_xv-de-france-premiere-et-troisieme-ligne-modifiees_4.png"
+        "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa_1.png",
+        "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa_2.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n",
+      "slug": "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d",
       "slides": [
-        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_1.png",
-        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_2.png",
-        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_3.png",
-        "actu_xv-de-france-quot-ce-groupe-de-joueurs-a-depasse-n_4.png"
+        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_1.png",
+        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_2.png",
+        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_3.png",
+        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_4.png"
       ]
     }
   ]
