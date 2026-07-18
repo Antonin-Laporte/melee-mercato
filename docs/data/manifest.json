@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-17",
-  "latest": "2026-07-17",
+  "generated": "2026-07-18",
+  "latest": "2026-07-18",
   "dates": [
+    "2026-07-18",
     "2026-07-17",
     "2026-07-16",
     "2026-07-15",
@@ -842,6 +843,63 @@
         }
       ]
     },
+    "2026-07-18": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha",
+          "slides": [
+            "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_1.png",
+            "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_2.png",
+            "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_3.png",
+            "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_4.png"
+          ]
+        },
+        {
+          "slug": "actu_entretien-championnat-des-nations-quot-quand-tu-es",
+          "slides": [
+            "actu_entretien-championnat-des-nations-quot-quand-tu-es_1.png",
+            "actu_entretien-championnat-des-nations-quot-quand-tu-es_2.png",
+            "actu_entretien-championnat-des-nations-quot-quand-tu-es_3.png",
+            "actu_entretien-championnat-des-nations-quot-quand-tu-es_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain",
+          "slides": [
+            "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_1.png",
+            "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_2.png",
+            "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_3.png",
+            "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-top-14-castres-olympique-hamish-watson-a",
+          "slides": [
+            "actu_transfert-top-14-castres-olympique-hamish-watson-a_1.png",
+            "actu_transfert-top-14-castres-olympique-hamish-watson-a_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-",
+          "slides": [
+            "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_1.png",
+            "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_2.png",
+            "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_3.png",
+            "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l",
+          "slides": [
+            "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_1.png",
+            "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_2.png",
+            "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_3.png",
+            "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-16": {
       "transferts": [],
       "actus": [
@@ -1067,57 +1125,59 @@
       ]
     }
   },
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-le-xv-de-france-et-les-ble",
+      "slug": "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha",
       "slides": [
-        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_1.png",
-        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_2.png",
-        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_3.png",
-        "actu_championnat-des-nations-le-xv-de-france-et-les-ble_4.png"
+        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_1.png",
+        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_2.png",
+        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_3.png",
+        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-quot-contre-le-japon-le-ma",
+      "slug": "actu_entretien-championnat-des-nations-quot-quand-tu-es",
       "slides": [
-        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_1.png",
-        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_2.png",
-        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_3.png",
-        "actu_championnat-des-nations-quot-contre-le-japon-le-ma_4.png"
+        "actu_entretien-championnat-des-nations-quot-quand-tu-es_1.png",
+        "actu_entretien-championnat-des-nations-quot-quand-tu-es_2.png",
+        "actu_entretien-championnat-des-nations-quot-quand-tu-es_3.png",
+        "actu_entretien-championnat-des-nations-quot-quand-tu-es_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-technique-ce-quot-4-4-quot",
+      "slug": "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain",
       "slides": [
-        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_1.png",
-        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_2.png",
-        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_3.png",
-        "actu_championnat-des-nations-technique-ce-quot-4-4-quot_4.png"
+        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_1.png",
+        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_2.png",
+        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_3.png",
+        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite",
+      "slug": "actu_transfert-top-14-castres-olympique-hamish-watson-a",
       "slides": [
-        "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite_1.png",
-        "actu_top-14-guide-de-l-intersaison-de-vannes-des-pepite_2.png"
+        "actu_transfert-top-14-castres-olympique-hamish-watson-a_1.png",
+        "actu_transfert-top-14-castres-olympique-hamish-watson-a_2.png"
       ]
     },
     {
-      "slug": "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa",
+      "slug": "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-",
       "slides": [
-        "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa_1.png",
-        "actu_top-14-ils-ne-doivent-pas-porter-le-poids-de-la-sa_2.png"
+        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_1.png",
+        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_2.png",
+        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_3.png",
+        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d",
+      "slug": "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l",
       "slides": [
-        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_1.png",
-        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_2.png",
-        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_3.png",
-        "actu_xv-de-france-quot-chat-noir-quot-de-l-039-equipe-d_4.png"
+        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_1.png",
+        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_2.png",
+        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_3.png",
+        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_4.png"
       ]
     }
   ]
