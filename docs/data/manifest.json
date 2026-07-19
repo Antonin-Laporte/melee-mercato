@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-18",
-  "latest": "2026-07-18",
+  "generated": "2026-07-19",
+  "latest": "2026-07-19",
   "dates": [
+    "2026-07-19",
     "2026-07-18",
     "2026-07-17",
     "2026-07-16",
@@ -364,6 +365,63 @@
             "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
             "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
             "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-19": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-quot-il-faut-remercier-len",
+          "slides": [
+            "actu_championnat-des-nations-quot-il-faut-remercier-len_1.png",
+            "actu_championnat-des-nations-quot-il-faut-remercier-len_2.png",
+            "actu_championnat-des-nations-quot-il-faut-remercier-len_3.png",
+            "actu_championnat-des-nations-quot-il-faut-remercier-len_4.png"
+          ]
+        },
+        {
+          "slug": "actu_japon-france-les-notes-des-bleus-pour-le-troisieme",
+          "slides": [
+            "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_1.png",
+            "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_2.png",
+            "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_3.png",
+            "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_4.png"
+          ]
+        },
+        {
+          "slug": "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr",
+          "slides": [
+            "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_1.png",
+            "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_2.png",
+            "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_3.png",
+            "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-auguste-pain-grenoble-rejoint-abcd",
+          "slides": [
+            "actu_transfert-rugby-auguste-pain-grenoble-rejoint-abcd_1.png",
+            "actu_transfert-rugby-auguste-pain-grenoble-rejoint-abcd_2.png"
+          ]
+        },
+        {
+          "slug": "actu_video-japon-france-les-bleus-terminent-avec-un-lar",
+          "slides": [
+            "actu_video-japon-france-les-bleus-terminent-avec-un-lar_1.png",
+            "actu_video-japon-france-les-bleus-terminent-avec-un-lar_2.png",
+            "actu_video-japon-france-les-bleus-terminent-avec-un-lar_3.png",
+            "actu_video-japon-france-les-bleus-terminent-avec-un-lar_4.png"
+          ]
+        },
+        {
+          "slug": "actu_video-japon-france-revivez-tous-les-essais-des-ble",
+          "slides": [
+            "actu_video-japon-france-revivez-tous-les-essais-des-ble_1.png",
+            "actu_video-japon-france-revivez-tous-les-essais-des-ble_2.png",
+            "actu_video-japon-france-revivez-tous-les-essais-des-ble_3.png",
+            "actu_video-japon-france-revivez-tous-les-essais-des-ble_4.png"
           ]
         }
       ]
@@ -1125,59 +1183,59 @@
       ]
     }
   },
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha",
+      "slug": "actu_championnat-des-nations-quot-il-faut-remercier-len",
       "slides": [
-        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_1.png",
-        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_2.png",
-        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_3.png",
-        "actu_direct-japon-france-les-bleus-peuvent-finir-le-cha_4.png"
+        "actu_championnat-des-nations-quot-il-faut-remercier-len_1.png",
+        "actu_championnat-des-nations-quot-il-faut-remercier-len_2.png",
+        "actu_championnat-des-nations-quot-il-faut-remercier-len_3.png",
+        "actu_championnat-des-nations-quot-il-faut-remercier-len_4.png"
       ]
     },
     {
-      "slug": "actu_entretien-championnat-des-nations-quot-quand-tu-es",
+      "slug": "actu_japon-france-les-notes-des-bleus-pour-le-troisieme",
       "slides": [
-        "actu_entretien-championnat-des-nations-quot-quand-tu-es_1.png",
-        "actu_entretien-championnat-des-nations-quot-quand-tu-es_2.png",
-        "actu_entretien-championnat-des-nations-quot-quand-tu-es_3.png",
-        "actu_entretien-championnat-des-nations-quot-quand-tu-es_4.png"
+        "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_1.png",
+        "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_2.png",
+        "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_3.png",
+        "actu_japon-france-les-notes-des-bleus-pour-le-troisieme_4.png"
       ]
     },
     {
-      "slug": "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain",
+      "slug": "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr",
       "slides": [
-        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_1.png",
-        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_2.png",
-        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_3.png",
-        "actu_pro-d2-l-039-avenir-du-club-de-nice-tres-incertain_4.png"
+        "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_1.png",
+        "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_2.png",
+        "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_3.png",
+        "actu_japon-france-revivez-la-large-victoire-du-xv-de-fr_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-top-14-castres-olympique-hamish-watson-a",
+      "slug": "actu_transfert-rugby-auguste-pain-grenoble-rejoint-abcd",
       "slides": [
-        "actu_transfert-top-14-castres-olympique-hamish-watson-a_1.png",
-        "actu_transfert-top-14-castres-olympique-hamish-watson-a_2.png"
+        "actu_transfert-rugby-auguste-pain-grenoble-rejoint-abcd_1.png",
+        "actu_transfert-rugby-auguste-pain-grenoble-rejoint-abcd_2.png"
       ]
     },
     {
-      "slug": "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-",
+      "slug": "actu_video-japon-france-les-bleus-terminent-avec-un-lar",
       "slides": [
-        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_1.png",
-        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_2.png",
-        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_3.png",
-        "actu_transferts-pro-d2-quot-j-039-ai-fait-le-choix-qui-_4.png"
+        "actu_video-japon-france-les-bleus-terminent-avec-un-lar_1.png",
+        "actu_video-japon-france-les-bleus-terminent-avec-un-lar_2.png",
+        "actu_video-japon-france-les-bleus-terminent-avec-un-lar_3.png",
+        "actu_video-japon-france-les-bleus-terminent-avec-un-lar_4.png"
       ]
     },
     {
-      "slug": "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l",
+      "slug": "actu_video-japon-france-revivez-tous-les-essais-des-ble",
       "slides": [
-        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_1.png",
-        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_2.png",
-        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_3.png",
-        "actu_transferts-top-14-quot-lopportunite-de-decouvrir-l_4.png"
+        "actu_video-japon-france-revivez-tous-les-essais-des-ble_1.png",
+        "actu_video-japon-france-revivez-tous-les-essais-des-ble_2.png",
+        "actu_video-japon-france-revivez-tous-les-essais-des-ble_3.png",
+        "actu_video-japon-france-revivez-tous-les-essais-des-ble_4.png"
       ]
     }
   ]
