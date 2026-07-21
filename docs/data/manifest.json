@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-20",
-  "latest": "2026-07-20",
+  "generated": "2026-07-21",
+  "latest": "2026-07-21",
   "dates": [
+    "2026-07-21",
     "2026-07-20",
     "2026-07-19",
     "2026-07-18",
@@ -75,6 +76,65 @@
             "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_2.png",
             "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_3.png",
             "actu_xv-de-france-quot-ca-fait-bizarre-de-dire-quune-vi_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-21": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-australie-italie-comment-m",
+          "slides": [
+            "actu_championnat-des-nations-australie-italie-comment-m_1.png",
+            "actu_championnat-des-nations-australie-italie-comment-m_2.png",
+            "actu_championnat-des-nations-australie-italie-comment-m_3.png",
+            "actu_championnat-des-nations-australie-italie-comment-m_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-match-bouillant-bonne-oper",
+          "slides": [
+            "actu_championnat-des-nations-match-bouillant-bonne-oper_1.png",
+            "actu_championnat-des-nations-match-bouillant-bonne-oper_2.png",
+            "actu_championnat-des-nations-match-bouillant-bonne-oper_3.png",
+            "actu_championnat-des-nations-match-bouillant-bonne-oper_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-quot-c-039-est-une-possibi",
+          "slides": [
+            "actu_championnat-des-nations-quot-c-039-est-une-possibi_1.png",
+            "actu_championnat-des-nations-quot-c-039-est-une-possibi_2.png",
+            "actu_championnat-des-nations-quot-c-039-est-une-possibi_3.png",
+            "actu_championnat-des-nations-quot-c-039-est-une-possibi_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie",
+          "slides": [
+            "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_1.png",
+            "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_2.png",
+            "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_3.png",
+            "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire",
+          "slides": [
+            "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_1.png",
+            "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_2.png",
+            "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_3.png",
+            "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-",
+          "slides": [
+            "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_1.png",
+            "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_2.png",
+            "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_3.png",
+            "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_4.png"
           ]
         }
       ]
@@ -1243,61 +1303,61 @@
       ]
     }
   },
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-quot-ce-groupe-a-depasse-n",
+      "slug": "actu_championnat-des-nations-australie-italie-comment-m",
       "slides": [
-        "actu_championnat-des-nations-quot-ce-groupe-a-depasse-n_1.png",
-        "actu_championnat-des-nations-quot-ce-groupe-a-depasse-n_2.png",
-        "actu_championnat-des-nations-quot-ce-groupe-a-depasse-n_3.png",
-        "actu_championnat-des-nations-quot-ce-groupe-a-depasse-n_4.png"
+        "actu_championnat-des-nations-australie-italie-comment-m_1.png",
+        "actu_championnat-des-nations-australie-italie-comment-m_2.png",
+        "actu_championnat-des-nations-australie-italie-comment-m_3.png",
+        "actu_championnat-des-nations-australie-italie-comment-m_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-quot-on-a-passe-des-semain",
+      "slug": "actu_championnat-des-nations-match-bouillant-bonne-oper",
       "slides": [
-        "actu_championnat-des-nations-quot-on-a-passe-des-semain_1.png",
-        "actu_championnat-des-nations-quot-on-a-passe-des-semain_2.png",
-        "actu_championnat-des-nations-quot-on-a-passe-des-semain_3.png",
-        "actu_championnat-des-nations-quot-on-a-passe-des-semain_4.png"
+        "actu_championnat-des-nations-match-bouillant-bonne-oper_1.png",
+        "actu_championnat-des-nations-match-bouillant-bonne-oper_2.png",
+        "actu_championnat-des-nations-match-bouillant-bonne-oper_3.png",
+        "actu_championnat-des-nations-match-bouillant-bonne-oper_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-seize-essais-en-trois-matc",
+      "slug": "actu_championnat-des-nations-quot-c-039-est-une-possibi",
       "slides": [
-        "actu_championnat-des-nations-seize-essais-en-trois-matc_1.png",
-        "actu_championnat-des-nations-seize-essais-en-trois-matc_2.png",
-        "actu_championnat-des-nations-seize-essais-en-trois-matc_3.png",
-        "actu_championnat-des-nations-seize-essais-en-trois-matc_4.png"
+        "actu_championnat-des-nations-quot-c-039-est-une-possibi_1.png",
+        "actu_championnat-des-nations-quot-c-039-est-une-possibi_2.png",
+        "actu_championnat-des-nations-quot-c-039-est-une-possibi_3.png",
+        "actu_championnat-des-nations-quot-c-039-est-une-possibi_4.png"
       ]
     },
     {
-      "slug": "actu_pro-d2-quot-cest-encore-un-nouveau-depart-pour-moi",
+      "slug": "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie",
       "slides": [
-        "actu_pro-d2-quot-cest-encore-un-nouveau-depart-pour-moi_1.png",
-        "actu_pro-d2-quot-cest-encore-un-nouveau-depart-pour-moi_2.png",
-        "actu_pro-d2-quot-cest-encore-un-nouveau-depart-pour-moi_3.png",
-        "actu_pro-d2-quot-cest-encore-un-nouveau-depart-pour-moi_4.png"
+        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_1.png",
+        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_2.png",
+        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_3.png",
+        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_4.png"
       ]
     },
     {
-      "slug": "actu_pro-d2-quot-il-y-a-forcement-de-linquietude-parce-",
+      "slug": "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire",
       "slides": [
-        "actu_pro-d2-quot-il-y-a-forcement-de-linquietude-parce-_1.png",
-        "actu_pro-d2-quot-il-y-a-forcement-de-linquietude-parce-_2.png",
-        "actu_pro-d2-quot-il-y-a-forcement-de-linquietude-parce-_3.png",
-        "actu_pro-d2-quot-il-y-a-forcement-de-linquietude-parce-_4.png"
+        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_1.png",
+        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_2.png",
+        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_3.png",
+        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_4.png"
       ]
     },
     {
-      "slug": "actu_xv-de-france-sept-piliers-droits-theo-attissogbe-t",
+      "slug": "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-",
       "slides": [
-        "actu_xv-de-france-sept-piliers-droits-theo-attissogbe-t_1.png",
-        "actu_xv-de-france-sept-piliers-droits-theo-attissogbe-t_2.png",
-        "actu_xv-de-france-sept-piliers-droits-theo-attissogbe-t_3.png",
-        "actu_xv-de-france-sept-piliers-droits-theo-attissogbe-t_4.png"
+        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_1.png",
+        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_2.png",
+        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_3.png",
+        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_4.png"
       ]
     }
   ]
