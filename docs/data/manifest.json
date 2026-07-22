@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-21",
-  "latest": "2026-07-21",
+  "generated": "2026-07-22",
+  "latest": "2026-07-22",
   "dates": [
+    "2026-07-22",
     "2026-07-21",
     "2026-07-20",
     "2026-07-19",
@@ -485,6 +486,61 @@
             "actu_video-australie-france-les-bleus-en-demonstration-_2.png",
             "actu_video-australie-france-les-bleus-en-demonstration-_3.png",
             "actu_video-australie-france-les-bleus-en-demonstration-_4.png"
+          ]
+        }
+      ]
+    },
+    "2026-07-22": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d",
+          "slides": [
+            "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_1.png",
+            "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_2.png",
+            "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_3.png",
+            "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d",
+          "slides": [
+            "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_1.png",
+            "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_2.png",
+            "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_3.png",
+            "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh",
+          "slides": [
+            "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_1.png",
+            "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_2.png",
+            "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_3.png",
+            "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_4.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi",
+          "slides": [
+            "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi_1.png",
+            "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers",
+          "slides": [
+            "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers_1.png",
+            "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers_2.png"
+          ]
+        },
+        {
+          "slug": "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres",
+          "slides": [
+            "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_1.png",
+            "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_2.png",
+            "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_3.png",
+            "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_4.png"
           ]
         }
       ]
@@ -1303,61 +1359,57 @@
       ]
     }
   },
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_championnat-des-nations-australie-italie-comment-m",
+      "slug": "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d",
       "slides": [
-        "actu_championnat-des-nations-australie-italie-comment-m_1.png",
-        "actu_championnat-des-nations-australie-italie-comment-m_2.png",
-        "actu_championnat-des-nations-australie-italie-comment-m_3.png",
-        "actu_championnat-des-nations-australie-italie-comment-m_4.png"
+        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_1.png",
+        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_2.png",
+        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_3.png",
+        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-match-bouillant-bonne-oper",
+      "slug": "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d",
       "slides": [
-        "actu_championnat-des-nations-match-bouillant-bonne-oper_1.png",
-        "actu_championnat-des-nations-match-bouillant-bonne-oper_2.png",
-        "actu_championnat-des-nations-match-bouillant-bonne-oper_3.png",
-        "actu_championnat-des-nations-match-bouillant-bonne-oper_4.png"
+        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_1.png",
+        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_2.png",
+        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_3.png",
+        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_4.png"
       ]
     },
     {
-      "slug": "actu_championnat-des-nations-quot-c-039-est-une-possibi",
+      "slug": "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh",
       "slides": [
-        "actu_championnat-des-nations-quot-c-039-est-une-possibi_1.png",
-        "actu_championnat-des-nations-quot-c-039-est-une-possibi_2.png",
-        "actu_championnat-des-nations-quot-c-039-est-une-possibi_3.png",
-        "actu_championnat-des-nations-quot-c-039-est-une-possibi_4.png"
+        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_1.png",
+        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_2.png",
+        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_3.png",
+        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_4.png"
       ]
     },
     {
-      "slug": "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie",
+      "slug": "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi",
       "slides": [
-        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_1.png",
-        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_2.png",
-        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_3.png",
-        "actu_transferts-pro-d2-le-su-agen-se-renforce-en-premie_4.png"
+        "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi_1.png",
+        "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi_2.png"
       ]
     },
     {
-      "slug": "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire",
+      "slug": "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers",
       "slides": [
-        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_1.png",
-        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_2.png",
-        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_3.png",
-        "actu_transferts-top-14-caylen-umaga-neveu-du-legendaire_4.png"
+        "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers_1.png",
+        "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers_2.png"
       ]
     },
     {
-      "slug": "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-",
+      "slug": "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres",
       "slides": [
-        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_1.png",
-        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_2.png",
-        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_3.png",
-        "actu_transferts-top-14-vannes-a-decide-de-se-separer-d-_4.png"
+        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_1.png",
+        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_2.png",
+        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_3.png",
+        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_4.png"
       ]
     }
   ]
