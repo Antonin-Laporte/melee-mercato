@@ -1,7 +1,8 @@
 {
-  "generated": "2026-07-22",
-  "latest": "2026-07-22",
+  "generated": "2026-07-23",
+  "latest": "2026-07-23",
   "dates": [
+    "2026-07-23",
     "2026-07-22",
     "2026-07-21",
     "2026-07-20",
@@ -910,6 +911,65 @@
         }
       ]
     },
+    "2026-07-23": {
+      "transferts": [],
+      "actus": [
+        {
+          "slug": "actu_championnat-des-nations-quot-les-all-blacks-ont-re",
+          "slides": [
+            "actu_championnat-des-nations-quot-les-all-blacks-ont-re_1.png",
+            "actu_championnat-des-nations-quot-les-all-blacks-ont-re_2.png",
+            "actu_championnat-des-nations-quot-les-all-blacks-ont-re_3.png",
+            "actu_championnat-des-nations-quot-les-all-blacks-ont-re_4.png"
+          ]
+        },
+        {
+          "slug": "actu_championnat-des-nations-tomas-albornoz-cite-par-la",
+          "slides": [
+            "actu_championnat-des-nations-tomas-albornoz-cite-par-la_1.png",
+            "actu_championnat-des-nations-tomas-albornoz-cite-par-la_2.png",
+            "actu_championnat-des-nations-tomas-albornoz-cite-par-la_3.png",
+            "actu_championnat-des-nations-tomas-albornoz-cite-par-la_4.png"
+          ]
+        },
+        {
+          "slug": "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret",
+          "slides": [
+            "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_1.png",
+            "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_2.png",
+            "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_3.png",
+            "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-",
+          "slides": [
+            "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_1.png",
+            "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_2.png",
+            "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_3.png",
+            "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-",
+          "slides": [
+            "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_1.png",
+            "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_2.png",
+            "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_3.png",
+            "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_4.png"
+          ]
+        },
+        {
+          "slug": "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl",
+          "slides": [
+            "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_1.png",
+            "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_2.png",
+            "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_3.png",
+            "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_4.png"
+          ]
+        }
+      ]
+    },
     "2026-07-11": {
       "transferts": [],
       "actus": [
@@ -1359,57 +1419,61 @@
       ]
     }
   },
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "transferts": [],
   "actus": [
     {
-      "slug": "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d",
+      "slug": "actu_championnat-des-nations-quot-les-all-blacks-ont-re",
       "slides": [
-        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_1.png",
-        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_2.png",
-        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_3.png",
-        "actu_pro-d2-nissa-rugby-convoque-devant-le-conseil-de-d_4.png"
+        "actu_championnat-des-nations-quot-les-all-blacks-ont-re_1.png",
+        "actu_championnat-des-nations-quot-les-all-blacks-ont-re_2.png",
+        "actu_championnat-des-nations-quot-les-all-blacks-ont-re_3.png",
+        "actu_championnat-des-nations-quot-les-all-blacks-ont-re_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d",
+      "slug": "actu_championnat-des-nations-tomas-albornoz-cite-par-la",
       "slides": [
-        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_1.png",
-        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_2.png",
-        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_3.png",
-        "actu_top-14-cinq-recrues-cinq-histoires-insolites-dan-d_4.png"
+        "actu_championnat-des-nations-tomas-albornoz-cite-par-la_1.png",
+        "actu_championnat-des-nations-tomas-albornoz-cite-par-la_2.png",
+        "actu_championnat-des-nations-tomas-albornoz-cite-par-la_3.png",
+        "actu_championnat-des-nations-tomas-albornoz-cite-par-la_4.png"
       ]
     },
     {
-      "slug": "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh",
+      "slug": "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret",
       "slides": [
-        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_1.png",
-        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_2.png",
-        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_3.png",
-        "actu_top-14-directeur-sportif-de-la-rochelle-robert-moh_4.png"
+        "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_1.png",
+        "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_2.png",
+        "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_3.png",
+        "actu_decryptage-d-039-un-transfert-dan-carter-et-le-ret_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi",
+      "slug": "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-",
       "slides": [
-        "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi_1.png",
-        "actu_transfert-rugby-rodrigue-monnier-lyon-rejoint-albi_2.png"
+        "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_1.png",
+        "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_2.png",
+        "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_3.png",
+        "actu_pro-d2-deux-affiches-en-prime-time-le-vendredi-la-_4.png"
       ]
     },
     {
-      "slug": "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers",
+      "slug": "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-",
       "slides": [
-        "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers_1.png",
-        "actu_transfert-rugby-santiago-lopez-nice-rejoint-nevers_2.png"
+        "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_1.png",
+        "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_2.png",
+        "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_3.png",
+        "actu_pro-d2-montauban-sebastien-tillous-borde-prolonge-_4.png"
       ]
     },
     {
-      "slug": "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres",
+      "slug": "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl",
       "slides": [
-        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_1.png",
-        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_2.png",
-        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_3.png",
-        "actu_transferts-top-14-pro-d2-enzo-herve-quitte-castres_4.png"
+        "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_1.png",
+        "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_2.png",
+        "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_3.png",
+        "actu_top-14-quot-ca-nous-a-forcement-marques-quot-la-bl_4.png"
       ]
     }
   ]
